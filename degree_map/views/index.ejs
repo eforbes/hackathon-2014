@@ -13,11 +13,16 @@
 <div class="container">
 	<div class="jumbotron text-center">
 		<h1>Degree Map</h1>
-
+		<br>
+		<%if(typeof user == 'undefined') {%>
 		<p>Login or Register:</p>
 
 		<a href="/login" class="btn btn-default"><span class="fa fa-user"></span> Login</a>
 		<a href="/signup" class="btn btn-default"><span class="fa fa-user"></span> Signup</a>
+		<%}else{%>
+			<p>Welcome <%=user.local.email%>!</p
+				>
+		<%}%>
 	</div>
 </div>
 <% include footer %>
