@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>My Schedule</title>
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="public/stylesheets/bootstrap.min.css">
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="public/stylesheets/jquery.gridster.css">
     <link rel="stylesheet" type="text/css" href="public/stylesheets/schedulestyle.css">
@@ -13,7 +13,7 @@
 <body>
 <% include header %>
 <div class="container">
-    
+
     <div class="page-header text-center">
         <h1></span> My Schedule</h1>
     </div>
@@ -24,7 +24,7 @@
                 <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
                     <h1>Linear Algebra</h1>
                     <p>MATH 4123</p>
-                    <button type="button" class="btn btn-default" data-toggle="popover" title="Course info"
+                    <button id="test" type="button" class="btn btn-default" data-toggle="popover" title="Course info"
                         data-content="The course is very good and stuff">i</button>
                 </li>
                 <li data-row="2" data-col="1" data-sizex="1" data-sizey="1"><h1>Goodbye</h1></li>
@@ -41,8 +41,11 @@
         </div>
     </section>
 </div>
+<% include footer %>
+
     <script type="text/javascript" src="public/javascripts/jquery-1.11.1.js"></script>
     <script type="text/javascript" src="public/javascripts/jquery.gridster.js" charster="utf-8"></script>
+    <script type="text/javascript" src="public/javascripts/bootstrap.min.js"></script>
     <script type="text/javascript">
         var gridster;
 
@@ -59,9 +62,10 @@
             $(".gridster li").hover(function(){
                 $(".gridster li").css("box-shadow", "0 0 10px #fe2e2e");
             });
+
+            $('#test').popover();
         });
     </script>
 
-<% include footer %>
 </body>
 </html>
