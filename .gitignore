@@ -26,3 +26,7 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
+
+# Michael's weird stuff
+node.js.lnk
+nodejs.bat
