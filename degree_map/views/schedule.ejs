@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+    <title>My Schedule</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="public/stylesheets/jquery.gridster.css">
+    <link rel="stylesheet" type="text/css" href="public/stylesheets/schedulestyle.css">
+    <style>
+        body        { padding-top:80px; word-wrap:break-word; }
+    </style>
+</head>
+<body>
+<div class="container">
+    
+    <div class="page-header text-center">
+        <h1></span> My Schedule</h1>
+    </div>
+
+    <section class="demo">
+        <div class="gridster">
+            <ul>
+                <li data-row="1" data-col="1" data-sizex="1" data-sizey="1"><h1>Hello</h1></li>
+                <li data-row="2" data-col="1" data-sizex="1" data-sizey="1"><h1>Goodbye</h1></li>
+            </ul>
+        </div>
+    </section>
+</div>
+    <script type="text/javascript" src="public/javascripts/jquery-1.11.1.js"></script>
+    <script type="text/javascript" src="public/javascripts/jquery.gridster.js" charster="utf-8"></script>
+    <script type="text/javascript">
+        var gridster;
+
+        $(function() {
+                gridster = $(".gridster > ul").gridster({
+                    widget_margins: [10, 10],
+                    widget_base_dimensions: [140, 140],
+                    min_cols: 2
+                }).data('gridster');
+            });
+    </script>
+
+</body>
+</html>
