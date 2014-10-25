@@ -30,3 +30,6 @@ node_modules
 # Michael's weird stuff
 node.js.lnk
 nodejs.bat
+
+data
+MongoDB
