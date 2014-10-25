@@ -1,0 +1,74 @@
+CS 1001		Introduction to Computer Science
+CS 1043		Introduction to Programming and Problem-solving
+CS 2003		Fundamentals of Algorithm and Computer Applications
+CS 2033		Computer Architecture, Organization and Assembler
+CS 2103		Computing Ethics
+CS 2123		Data Structures
+CS 2163		Computer Design, Organization and Logic
+CS 2503		Scientific Programming
+CS 3003		Comparative Programming Languages
+CS 3013		Discrete Mathematics
+CS 3023		Introduction to Game Programming
+CS 3031		Web Systems Apps
+CS 3043		Human-Web Interfaces
+CS 3053		Operating Systems
+CS 3243		Computer Applications Programming
+CS 3353		System Administration
+CS 3363		Data Communication and Networking
+CS 3641		Emerging Information Technology Junior Seminar
+CS 3861		Special Topics in Computer Science
+CS 3862		Special Topics in Computer Science
+CS 3863		Special Topics in Computer Science
+CS 4013		Compiler Construction
+CS 4043		Online Communities
+CS 4063		Computer Architecture
+CS 4123		Theory of Computing
+CS 4153		Computer Security
+CS 4163		Database Systems
+CS 4213		Object-Oriented Software
+CS 4253		Artificial Intelligence
+CS 4333		Computer Networks
+CS 4343		Enterprise Integration and Architecture
+CS 4353		Parallel Programming
+CS 4363		Distributed Computing
+CS 4453		Computer Law and Policy
+CS 4023		Critical Infrastructure Protection
+CS 4503		Senior Software Projects I
+CS 4513		Senior Software Projects II
+CS 4533		Introduction to Computational Science
+CS 4613		Fundamentals of Computer Graphics
+CS 4623		Evolutionary Computation
+CS 4641		Emerging Information Technology Senior Seminar
+CS 4643		Bioinformatics
+CS 4653		Medical Informatics
+CS 4753		Robotics
+CS 4763		Robotics Design and Implementation
+CS 4863		Special Topics
+CS 4971		Research and Computer Sciences Literature
+CS 4972		Research and Computer Sciences Literature
+CS 4973		Research and Computer Sciences Literature
+CS 4983		Senior Thesis
+CS 4991		Independent Study Approved Graduate Courses
+CS 4992		Independent Study Approved Graduate Courses
+CS 4993		Independent Study Approved Graduate Courses
+CS 5043		Information and Text Retrieval
+CS 5063		Parallel Architectures
+CS 5183		Information System Security Engineering
+CS 5193		Risk Management for Information Systems
+CS 5243		Computational Linear Algebra
+CS 5263		Scientific Computing
+CS 5273		Human-Computing Interaction
+CS 5313		Advanced Artificial Intelligence
+CS 5323		Multi Agent Systems
+CS 5333		Machine Learning
+CS 5343		Intelligent Agents
+CS 5353		Analysis of Algorithms
+CS 5403		Secure Electronic Commerce
+CS 5433		Distributed Algorithms
+CS 5443		Information System Assurance
+CS 5463		Enterprise Security Management
+CS 5473		Network Security
+CS 5483		Computer and Network Forensics
+CS 5493		Secure System Administration and Certification
+CS 5543		Parallel Languages and Environments
+CS 5553		Parallel Algorithms 
