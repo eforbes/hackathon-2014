@@ -7,6 +7,12 @@ ul, ol {
     font-size: 26px;
     text-align: center;
 }
+.gridster p {
+    font-size: 13px;
+    margin: 10px;
+    position: absolute;
+    bottom: 0px;
+}
 
 .schedulegrid {
     margin: 3em 0;
@@ -37,4 +43,12 @@ ul, ol {
     -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.3);
     box-shadow: 0 0 5px rgba(0,0,0,0.3);
     border-radius: 10px;
+}
+.gridster button {
+    font-size: 10px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 5px;
+    margin: 5px;
 }
