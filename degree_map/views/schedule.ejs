@@ -15,7 +15,7 @@
 <div class="container">
 
     <div class="page-header text-center">
-        <h1></span> My Schedule</h1>
+        <h1>My Schedule</h1>
     </div>
 
     <section class="schedulegrid">
@@ -61,6 +61,8 @@
         $(document).ready(function(){
             $(".gridster li").hover(function(){
                 $(".gridster li").css("box-shadow", "0 0 10px #fe2e2e");
+            },function(){
+                $(".gridster li").css("box-shadow", "0 0 0px #fe2e2e");
             });
 
             $('#test').popover();
