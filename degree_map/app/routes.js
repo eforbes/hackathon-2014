@@ -44,6 +44,19 @@ module.exports = function(app, passport) {
 		});
 	});
 
+
+    // process the schedule form
+    // 
+    // ====================================
+    // SCHEDULE SECTION====================
+    // ====================================
+    // schedule is dependent on user so must be logged in
+    app.get('/schedule', isLoggedIn, function(req, res) {
+        res.render('schedule.ejs', {
+            user : req.user
+        });
+    });
+
 	// =====================================
 	// LOGOUT ==============================
 	// =====================================
