@@ -1,0 +1,154 @@
+{
+	"degrees" : [
+		{
+			"shortname" : "Computer Science",
+			"name" : "Bachelor of Science in Computer Science (B.S.C.S.)",
+			"totalhours" : 124,
+			"coursegroups" : [
+				{
+					"type" : "all",
+					"courses" : [
+						"CS 1001",
+						"CS 1043",
+						"CS 2003",
+						"CS 2033",
+						"CS 2103",
+						"CS 2123",
+						"CS 3003",
+						"CS 3013",
+						"CS 3053",
+						"CS 4013",
+						"CS 4163",
+						"CS 4503",
+						"CS 4513",
+						"MATH 2014",
+						"MATH 2024",
+						"MATH 4123",
+						"MATH 4503",
+						"STAT 4813",
+						"EE 2163",
+						"EE 2161",
+						"PHYS 2053",
+						"PHYS 2051",
+						"PHYS 2063",
+						"PHYS 2061",
+						"ENGL 1033",
+						"ENGL 3003"
+					]
+				},
+				{
+					"type" : "tag",
+					"tag" : "cs_cs_elective",
+					"hours" : 9
+				}
+				{
+					"type" : "tag",
+					"tag" : "cs_math_elective",
+					"hours" : 6
+				}
+				{
+					"type" : "tag",
+					"tag" : "cs_ens_elective",
+					"hours" : 7
+				}
+				{
+					"type" : "tag",
+					"tag" : "block_1",
+					"hours" : 6
+				}
+				{
+					"type" : "tag",
+					"tag" : "block_2",
+					"hours" : 12
+				}
+				{
+					"type" : "general_elective",
+					"hours" : 12
+				}
+			]
+		}
+	],
+	
+	"tags" : {
+		"cs_cs_elective" [
+			"CS 3023",
+			"CS 3031",
+			"CS 3043",
+			"CS 3243",
+			"CS 3353",
+			"CS 3363",
+			"CS 3641",
+			"CS 3861",
+			"CS 3862",
+			"CS 3863",
+			"CS 4043",
+			"CS 4063",
+			"CS 4123",
+			"CS 4153",
+			"CS 4213",
+			"CS 4253",
+			"CS 4333",
+			"CS 4343",
+			"CS 4353",
+			"CS 4363",
+			"CS 4453",
+			"CS 4023",
+			"CS 4533",
+			"CS 4613",
+			"CS 4623",
+			"CS 4641",
+			"CS 4643",
+			"CS 4653",
+			"CS 4753",
+			"CS 4763",
+			"CS 4863",
+			"CS 4971",
+			"CS 4972",
+			"CS 4973",
+			"CS 4983",
+			"CS 4991",
+			"CS 4992",
+			"CS 4993",
+			"CS 5043",
+			"CS 5063",
+			"CS 5183",
+			"CS 5193",
+			"CS 5243",
+			"CS 5263",
+			"CS 5273",
+			"CS 5313",
+			"CS 5323",
+			"CS 5333",
+			"CS 5343",
+			"CS 5353",
+			"CS 5403",
+			"CS 5433",
+			"CS 5443",
+			"CS 5463",
+			"CS 5473",
+			"CS 5483",
+			"CS 5493",
+			"CS 5543",
+			"CS 5553"
+		],
+		"cs_math_elective" : [
+			"MATH 2073",
+			"MATH 3033",
+			"MATH 3063",
+			"MATH 3073",
+			"MATH 3513",
+			"MATH 3553"
+		],
+		"cs_ens_elective" : [
+			
+		],
+		"block_1" : [
+			
+		],
+		"block_2" : [
+			
+		]
+	}
+	
+}
+
