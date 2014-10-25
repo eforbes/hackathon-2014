@@ -1,4 +1,10 @@
+var express = require('express');
+
 module.exports = function(app, passport) {
+
+	//set the public/ directory as static
+	app.use('/public', express.static('public'));
+
 
 	// =====================================
 	// HOME PAGE (with login links) ========
@@ -46,7 +52,7 @@ module.exports = function(app, passport) {
 
 
     // process the schedule form
-    // 
+    //
     // ====================================
     // SCHEDULE SECTION====================
     // ====================================
