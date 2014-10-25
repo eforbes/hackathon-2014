@@ -10,7 +10,7 @@ module.exports = function(app, passport) {
 	// HOME PAGE (with login links) ========
 	// =====================================
 	app.get('/', function(req, res) {
-		res.render('index.ejs', { user: req.user}); // load the index.ejs file
+		res.render('index.ejs', { user: req.user, nav: 'Home'}); // load the index.ejs file
 	});
 
 	// =====================================
@@ -59,7 +59,7 @@ module.exports = function(app, passport) {
     // schedule is dependent on user so must be logged in
     app.get('/schedule', isLoggedIn, function(req, res) {
         res.render('schedule.ejs', {
-            user : req.user
+            user : req.user, nav: 'Map'
         });
     });
 
