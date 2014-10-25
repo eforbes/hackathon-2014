@@ -1,0 +1,5 @@
+url: 
+	http://www.utulsa.edu/academics/academic-essentials/academic-bulletin.aspx
+
+current pdf:
+	http://www.utulsa.edu/~/media/Files/bulletins/Undergrad-2014-2015.ashx
