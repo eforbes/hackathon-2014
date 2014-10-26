@@ -46,10 +46,30 @@ module.exports = function(app, passport) {
     // ====================================
     // schedule is dependent on user so must be logged in
     app.get('/schedule', isLoggedIn, function(req, res) {
-        res.render('schedule.ejs', {
-            user : req.user,
-						nav: 'Map'
-        });
+
+
+				Tag.find(function(err, tags){
+						var t = {};
+						for(var i=0;i<tags.length;i++){
+							t[tags[i].key] = tags[i].courses;
+						}
+
+						Course.find(function(err,allCourses){
+							var cleanCourses = [];
+							for(var i=0;i<allCourses.length;i++) {
+								cleanCourses.push(allCourses[i].number);
+							}
+							t['General elective'] = cleanCourses;
+
+							console.log('tagmap: '+JSON.stringify(t));
+
+							res.render('schedule.ejs', {
+									user : req.user,
+									nav: 'Map',
+									tagMap: t
+							});
+						})
+				});
     });
 
 		app.post('/schedule/save', function(req,res){
