@@ -1,0 +1,31 @@
+Structure:
+	Array of Departments
+		Dept. Name ("Computer Science")
+		Dept. Abbreviation ("CS")
+		Array of Courses
+			Course Number ("2103")
+			Block (1,2,3, or 0 if not a block)
+			Course Name ("Computing Ethics")
+			optional array of prereqs
+			optional array of coreqs
+			optional ambiguous tag (either absent or true, true if the pre/corequisites are ambiguously defined)
+			
+
+*requisite arrays:
+	(A or B or C) and D are prereqs would become
+		"prereqs" : [
+			["A", "B", "C"],
+			["D"],
+		]
+	so it's basically an And by Or 2D array
+	
+	The elements in the array are the full course ID, like so: "CS 2003".
+	Sometimes there are other special requirements, such as:
+		"_instructor"		Instructor approval
+		"_junior"			Junior standing
+		"_senior"			Senior standing
+		"_dept"				Departmental approval
+		"_equivalent"		Used when prereqs are defined as "CS 1043 or equivalent". Note that I don't think we actually have course equivalence data yet.
+		
+	If you need a better example, just look at all-courses.json.
+	Currently all the features above (except for the "_junior" requirement) are used.
