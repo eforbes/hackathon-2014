@@ -114,13 +114,19 @@
         $(document).ready(function(){
             var toHighlight = <%- JSON.stringify(toHighlight) %>;
             $(".gridster.classes li").hover(function(e){
-                for(var i=0; i < toHighlight[this.id.replace(/\s/g,'_')].length;i++){
-                    console.log(toHighlight[this.id][i].replace(/\s/g,'_'));
-                    $("#"+toHighlight[this.id][i].replace(/\s/g,"_")).css("box-shadow", "0 0 10px #fe2e2e");
-                }
+                recurse(this.id.replace(/\s/g,'_'));
             },function(){
                 $(".gridster.classes li").css("box-shadow", "0 0 0px #fe2e2e");
             });
+
+            function recurse(string){
+              //console.log("string: "+string);
+              for(var i=0; i < toHighlight[string].length;i++){
+                  $("#"+toHighlight[string][i].replace(/\s/g,"_")).css("box-shadow", "0 0 10px #fe2e2e");
+
+                  recurse(toHighlight[string][i].replace(/\s/g,"_"));
+              }
+            }
 
             $('#test').popover();
         });
