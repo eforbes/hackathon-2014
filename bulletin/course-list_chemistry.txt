@@ -45,9 +45,9 @@ CHEM 4962 	Senior Project
 CHEM 4981 	Undergraduate Research
 CHEM 4982 	Undergraduate Research
 CHEM 4983 	Undergraduate Research
-CHEM 4991	Independent Study Approved Graduate Courses
-CHEM 4992	Independent Study Approved Graduate Courses
-CHEM 4993 	Independent Study Approved Graduate Courses
+CHEM 4991	Independent Study
+CHEM 4992	Independent Study
+CHEM 4993 	Independent Study
 CHEM 5113 	Physical Organic Chemistry
 CHEM 5123 	Advanced Physical Chemistry
 CHEM 5143 	Biochemistry of Cell Fate

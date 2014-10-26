@@ -1,0 +1,16 @@
+ES 2013 	Statics
+ES 2053 	Introduction to Materials Properties
+ES 2073 	Professional Ethics in the Information Age
+ES 2513 	Engineering Applications Programming
+ES 3003 	Introductory Fluid Mechanics
+ES 3023 	Mechanics of Materials
+ES 3053 	Thermodynamics
+ES 3063 	Solid State Electronic Devices
+ES 3073 	Heat Transfer
+ES 3083 	Engineering Economics
+ES 3861 	Special Topics in Engineering Science
+ES 3862 	Special Topics in Engineering Science
+ES 3863 	Special Topics in Engineering Science
+ES 4001 	Ethics and Responsibility in Scientific Research
+ES 4753 	Robotics Navigation
+ES 4763 	Robotics Projects
