@@ -109,12 +109,12 @@ module.exports = function(app, passport) {
 					}
 				}
 				if(cg.type=='general_elective') {
-					for(var j=0;j<cg.hours%3;j++){
+					for(var j=0;j<cg.hours/3;j++){
 						courses.push('General elective');
 					}
 				}
 				if(cg.type=='tag'){
-					for(var j=0;j<cg.hours%3;j++){
+					for(var j=0;j<cg.hours/3;j++){
 						courses.push(cg.tag);
 					}
 				}
