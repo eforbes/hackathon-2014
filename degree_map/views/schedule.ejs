@@ -94,7 +94,7 @@
             console.log(<%-JSON.stringify(user.schedule)%>);
             <% for(var i=0; i < user.schedule.length; i++){ %>
             console.log('<%= user.schedule[i].number %>');
-            gridster.data('gridster').add_widget('<li name="<%=user.schedule[i].number%>"> <h1><%=user.schedule[i].number%></h1><button type="button" class="btn btn-default" data-toggle="popover" title="Course info" data-container="body" data-content="The course is very good and stuff and I would recommend it to anyone that takes courses from a professor that is a professor and this is a long description">i</button> </li>', <%= user.schedule[i].size_x %>, <%= user.schedule[i].size_y %>, <%= user.schedule[i].col %>, <%= user.schedule[i].row %>);
+            gridster.data('gridster').add_widget('<li name="<%=user.schedule[i].number%>"> <h1><%=user.schedule[i].number%></h1><% if(tagMap[user.schedule[i].number]){ %><select class="form-control"><% for(var j=0; j< tagMap[user.schedule[i].number].length;j++){ %> <option><%=tagMap[user.schedule[i].number][j] %></option><% } %></select><% } %><button type="button" class="btn btn-default" data-toggle="popover" title="Course info" data-container="body" data-content="The course is very good and stuff and I would recommend it to anyone that takes courses from a professor that is a professor and this is a long description">i</button> </li>', <%= user.schedule[i].size_x %>, <%= user.schedule[i].size_y %>, <%= user.schedule[i].col %>, <%= user.schedule[i].row %>);
                 <% } %>
         });
 
