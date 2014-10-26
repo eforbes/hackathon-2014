@@ -47,9 +47,14 @@ module.exports = function(app, passport) {
     // schedule is dependent on user so must be logged in
     app.get('/schedule', isLoggedIn, function(req, res) {
         res.render('schedule.ejs', {
-            user : req.user, nav: 'Map'
+            user : req.user,
+						nav: 'Map'
         });
     });
+
+		app.post('/schedule/save', function(req,res){
+			console.log("saving: "+req.body);
+		});
 
 	// =====================================
 	// LOGOUT ==============================
@@ -86,7 +91,43 @@ module.exports = function(app, passport) {
 
 	app.post('/setup', function(req, res){
 		console.log('setup submit: '+JSON.stringify(req.body));
-			res.redirect('/schedule');
+
+		Degree.findOne({}, function(err, degree){
+			var courses = [];
+			for(var i=0;i<degree.courseGroups.length;i++) {
+				var cg = degree.courseGroups[i];
+				if(cg.type=='all') {
+					for(var j=0;j<cg.courses.length;j++) {
+						courses.push(cg.courses[j]);
+					}
+				}
+				if(cg.type=='general_elective') {
+					for(var j=0;j<cg.hours%3;j++){
+						courses.push('General elective');
+					}
+				}
+				if(cg.type=='tag'){
+					for(var j=0;j<cg.hours%3;j++){
+						courses.push(cg.tag);
+					}
+				}
+			}
+
+			var outCourses = [];
+			for(var i=0;i<courses.length;i++) {
+				outCourses.push({number:courses[i], column:i%8});//lol?
+			}
+
+			req.user.schedule = outCourses;
+			req.user.markModified('schedule');
+
+			req.user.save(function(err){
+				res.redirect('/schedule');
+			});
+
+		});
+
+
 	});
 
 	app.get('/admin', function(req, res){
