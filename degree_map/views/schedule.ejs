@@ -120,8 +120,8 @@
             });
             console.log(<%-JSON.stringify(user.schedule)%>);
             <% for(var i=0; i < user.schedule.length; i++){ %>
-            console.log(<%= user.schedule[i].number %>);
-            gridster.data('gridster').add_widget('<li> <h1><%=user.schedule[i].courseName%></h1></li>', <%= user.schedule[i].size_x %>, <%= user.schedule[i].size_y %>, <%= user.schedule[i].col %>, <%= user.schedule[i].row %>);
+            console.log('<%= user.schedule[i].number %>');
+            gridster.data('gridster').add_widget('<li> <h1><%=user.schedule[i].number%></h1></li>', <%= user.schedule[i].size_x %>, <%= user.schedule[i].size_y %>, <%= user.schedule[i].col %>, <%= user.schedule[i].row %>);
                 <% } %>
         });
 
