@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+	<title>Degree Map | Account setup</title>
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"> <!-- load bootstrap css -->
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"> <!-- load fontawesome -->
+	<style>
+		body 		{ padding-top:80px; }
+	</style>
+</head>
+<body>
+<% include header %>
+<div class="container">
+	<div class="col-sm-6 col-sm-offset-3">
+		<h1>Account Setup</h1>
+
+		<form action="/setup" method="post" role="form">
+			<div class="form-group">
+				<label>Choose your major</label>
+				<select name="degree" class="form-control">
+					<option value="BSCS" selected>Bachelor of Science in Computer Science</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label> Choose the courses you have already taken </label>
+				<% for(var i=0;i<reqCourses.length;i++) { %>
+					<div class="checkbox">
+				    <label>
+				      <input type="checkbox" name="<%=reqCourses[i]%>"> <%=reqCourses[i]%>
+				    </label>
+				  </div>
+				<% } %>
+			</div>
+
+			<div class="form-group">
+				<label> Add any other courses you have already taken </label>
+				<textarea name="other_courses" rows="10" cols="50" placeholder="Course numbers, each on their own line" class="form-control"></textarea>
+			</div>
+
+			<button action="submit" class="btn btn-primary pull-right">Continue</button><div class="clearfix"></div>
+		</form>
+
+	</br>
+	</div>
+</div>
+<% include footer %>
+</body>
+</html>

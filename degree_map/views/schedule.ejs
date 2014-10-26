@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="public/stylesheets/jquery.gridster.css">
     <link rel="stylesheet" type="text/css" href="public/stylesheets/schedulestyle.css">
+    <script type="text/javascript" src="public/javascripts/jquery-1.11.1.js"></script>
+    <script type="text/javascript" src="public/javascripts/jquery.gridster.js" charster="utf-8"></script>
+    <script type="text/javascript" src="public/javascripts/bootstrap.min.js"></script>
     <style>
         body        { padding-top:60px; word-wrap:break-word; }
     </style>
@@ -17,7 +20,26 @@
     <div class="page-header text-center">
         <h1>My Schedule</h1>
     </div>
-
+    <div class="schedule-tools">
+       <button type="button" id="loading-example-btn" data-loading-text="Loading..." class="btn btn-primary">
+          Save schedule
+        </button>
+        <script>
+          $('#loading-example-btn').click(function () {
+            var btn = $(this)
+            btn.button('loading')
+            var s = $('.gridster.classes ul').data('gridster').serialize();
+            console.log(s);
+            $.ajax({
+                type: "POST",
+                url: "/schedule/save",
+                data: {}
+                }).always(function () {
+              btn.button('reset')
+            });
+          });
+        </script> 
+    </div>
     <section class="schedulegrid">
         <div class="gridster semesters">
             <ul>
@@ -30,66 +52,80 @@
         </div>
         <div class="gridster classes">
             <ul>
-                <li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
+                <li data-row="2" data-col="1" data-sizex="1" data-sizey="1" name="MATH4123">
                     <h1>Linear Algebra</h1>
                     <p>MATH 4123</p>
-                    <button id="test" type="button" class="btn btn-default" data-toggle="popover"
+                    <button type="button" class="btn btn-default" data-toggle="popover"
                         title="Course info" data-container="body"
                         data-content="The course is very good and stuff">i</button>
                 </li>
-                <li data-row="3" data-col="1" data-sizex="1" data-sizey="1"><h1>Goodbye</h1></li>
-                <li data-row="4" data-col="1" data-sizex="1" data-sizey="1"><h1>Goodbye</h1></li>
-                <li data-row="5" data-col="1" data-sizex="1" data-sizey="1"><h1>Goodbye</h1></li>
-
-                <li data-row="1" data-col="2" data-sizex="1" data-sizey="1"><h1>Hello</h1></li>
-                <li data-row="2" data-col="2" data-sizex="1" data-sizey="1"><h1>Hello</h1></li>
-                <li data-row="3" data-col="2" data-sizex="1" data-sizey="1"><h1>Hello</h1></li>
-                <li data-row="4" data-col="2" data-sizex="1" data-sizey="1"><h1>Hello</h1></li>
-
-                <li data-row="1" data-col="5" data-sizex="1" data-sizey="1"><h1>Such Column</h1></li>
+                <li data-row="3" data-col="1" data-sizex="1" data-sizey="1" name="ASDF">
+                <h1>Goodbye</h1>
+                <button type="button" class="btn btn-default" data-toggle="popover"
+                    title="Course info" data-container="body" 
+                    data-content="The course is very good and stuff">i</button>
+                </li>
+                <% for(var i=1; i <= 5; i++) {%>
+                <li data-row="<%=i%>" data-col="2" data-sizex="1" data-sizey="1" name="aaaaa"><h1>Hello</h1></li>
+                <% } %>
+                <li data-row="1" data-col="5" data-sizex="1" data-sizey="1" name="bbbbb"><h1>Such Column</h1></li>
             </ul>
         </div>
     </section>
 </div>
 <% include footer %>
 
-    <script type="text/javascript" src="public/javascripts/jquery-1.11.1.js"></script>
-    <script type="text/javascript" src="public/javascripts/jquery.gridster.js" charster="utf-8"></script>
-    <script type="text/javascript" src="public/javascripts/bootstrap.min.js"></script>
     <script type="text/javascript">
-	$('.btn-default').popover({
-                    html: true,
-                    trigger: 'manual'
-                }).click(function(e) {
-                    $(this).popover('show');
-                    $('.popover-title').append('<button type="button" class="close">&times;</button>');
-                    $('.close').click(function(e){
-                        $('.btn-default').popover('hide');
+    $(function() {
+        var popover
+        $('.btn-default').popover({
+                        html: true,
+                        trigger: 'manual'
+                    }).click(function(e) {
+                        popover = $(this).popover('show');
                     });
-                    e.preventDefault();
-                });
+        var removepopover = function(e) {
+            classList = e.target.className.split(/\s+/);
+            var j = false;
+            for (var i = 0; i < classList.length; i++) {
+               if (classList[i] === 'btn-default') {
+                 j = true;
+               }
+            }            
+            if(!j){
+                if(popover){
+                    popover.popover('hide');
+                }
+            }
+        };
+        $('.gridster li').mousedown(removepopover);
+        $('body').mousedown(removepopover);
+    });
     </script>
     <script type="text/javascript">
         $(function() {
-                $(".gridster.classes > ul").gridster({
-                    namespace: '.classes',
-                    widget_margins: [7, 7],
-                    widget_base_dimensions: [130, 100],
-                    max_cols: 10,
-                    min_cols: 8
-                });
+            $(".gridster.classes > ul").gridster({
+                namespace: '.classes',
+                widget_margins: [7, 7],
+                widget_base_dimensions: [130, 100],
+                max_cols: 10,
+                min_cols: 8,
+                serialize_params: function(courseDOM, coords) {
+                return {col: coords.col, row: coords.row, size_x: coords.size_x, size_y: coords.size_y, courseName: $(courseDOM).attr('name')}}
+
             });
+        });
     </script>
     <script type="text/javascript">
         $(function() {
-                $(".gridster.semesters > ul").gridster({
-                    namespace: '.semesters',
-                    widget_margins: [7, 7],
-                    widget_base_dimensions: [130, 50],
-                    max_cols: 10,
-                    min_cols: 8
-                }).data('gridster').disable();
-            });
+            $(".gridster.semesters > ul").gridster({
+                namespace: '.semesters',
+                widget_margins: [7, 7],
+                widget_base_dimensions: [130, 50],
+                max_cols: 10,
+                min_cols: 8
+            }).data('gridster').disable();
+        });
     </script>
     <script type="text/javascript">
         $(document).ready(function(){

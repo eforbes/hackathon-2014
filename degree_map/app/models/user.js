@@ -14,7 +14,8 @@ var userSchema = mongoose.Schema({
         email        : String,
         name         : String
     },
-    schedule: mongoose.Schema.Types.Mixed
+    schedule: mongoose.Schema.Types.Mixed,
+    taken: [String]
 
 });
 
