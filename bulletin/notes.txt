@@ -3,3 +3,5 @@ url:
 
 current pdf:
 	http://www.utulsa.edu/~/media/Files/bulletins/Undergrad-2014-2015.ashx
+	
+Department abbreviations (STAT, CS, PHYS, ...) are matched by `[A-Z]{2,4}`

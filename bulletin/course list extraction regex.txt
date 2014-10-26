@@ -16,3 +16,5 @@ prepend department code
 OTHER JUNK:
 
 remove all non bold stuff				`^.*</?(pdf2xml|i|page|text|fontspec)(>| .*>).*\n`
+
+remove page breaks						`^\t*</page>\n\t*<page .*>\n([\t \S]*\S[\t \S]*\n(?=[ \t\S]*\n))*`
