@@ -1,0 +1,64 @@
+CHEM 0123 	Principles of Chemistry
+CHEM 1004 	Chemistry in Medicine
+CHEM 1011 	General Chemistry I Laboratory
+CHEM 1013 	General Chemistry I
+CHEM 1021 	General Chemistry II Laboratory
+CHEM 1023 	General Chemistry II
+CHEM 1091 	Introduction to Biochemistry
+CHEM 1991 	Introduction to Chemistry
+CHEM 2023 	Chemical Concepts of Energy Technology
+CHEM 2024 	Energy Technology for the Future
+CHEM 2101 	Sophomore Seminar
+CHEM 3011 	Organic Chemistry I Laboratory
+CHEM 3013 	Organic Chemistry I
+CHEM 3021 	Organic Chemistry II Laboratory
+CHEM 3023 	Organic Chemistry II
+CHEM 3031 	Physical Chemistry Laboratory I
+CHEM 3032 	Molecular Modeling
+CHEM 3033 	Physical Chemistry I
+CHEM 3062 	Internship
+CHEM 3101 	Junior Seminar
+CHEM 4013 	Organic Spectroscopy
+CHEM 4021 	Physical Chemistry Laboratory II
+CHEM 4023 	Physical Chemistry II
+CHEM 4043 	Inorganic Chemistry
+CHEM 4053 	Environmental Chemistry
+CHEM 4081 	Analytical Chemistry I Laboratory
+CHEM 4083 	Analytical Chemistry I
+CHEM 4093 	Polymer Chemistry
+CHEM 4101 	Inorganic Synthesis and Characterization
+CHEM 4131 	Biochemistry I Laboratory
+CHEM 4133 	Biochemistry I
+CHEM 4143 	Biochemistry II
+CHEM 4153 	Standards-Based Chemistry
+CHEM 4163 	Chemistry of Cooking
+CHEM 4181 	Analytical Chemistry II Laboratory
+CHEM 4183 	Analytical Chemistry II
+CHEM 4193 	Chemical Nanotechnology
+CHEM 4213 	Medicinal Chemistry
+CHEM 4323 	Chemical Kinetics
+CHEM 4863 	Special Topics in Chemistry
+CHEM 4871 	Senior Seminar I
+CHEM 4872 	Introduction to Research
+CHEM 4961 	Senior Seminar II
+CHEM 4962 	Senior Project
+CHEM 4981 	Undergraduate Research
+CHEM 4982 	Undergraduate Research
+CHEM 4983 	Undergraduate Research
+CHEM 4991	Independent Study Approved Graduate Courses
+CHEM 4992	Independent Study Approved Graduate Courses
+CHEM 4993 	Independent Study Approved Graduate Courses
+CHEM 5113 	Physical Organic Chemistry
+CHEM 5123 	Advanced Physical Chemistry
+CHEM 5143 	Biochemistry of Cell Fate
+CHEM 5153 	Materials Chemistry
+CHEM 5163 	Advanced Polymer Chemistry
+CHEM 5193 	Biochemistry of Disease
+CHEM 5213 	Clinical Biochemistry
+CHEM 5233 	Industrial Experience
+CHEM 5243 	Synthetic Organic Chemistry
+CHEM 5253 	Analytical Separations
+CHEM 5263 	Analytical Spectroscopy
+CHEM 5273 	Instruction in the Chemical Sciences
+CHEM 5283 	Biochemistry of Nutrition
+CHEM 5863 	Advanced Topics in Chemistry and Biochemistry

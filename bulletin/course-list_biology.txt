@@ -1,0 +1,80 @@
+BIOL 1001 	Introduction to Biological Science 
+BIOL 1003 	Genetics and Human Diversity 
+BIOL 1011 	Plants and Society Laboratory 
+BIOL 1013 	Plants and Society 
+BIOL 1031 	The Environment and Humanity Laboratory 
+BIOL 1033 	The Environment and Humanity 
+BIOL 1043 	Biology: A Way of Knowing 
+BIOL 1051 	Plagues and Pestilence Laboratory 
+BIOL 1053 	Plagues and Pestilence 
+BIOL 1113 	The Human Body  
+BIOL 1123 	Introduction to Indoor Air Quality 
+BIOL 1603 	Introduction to Organismal and Evolutionary Biology 
+BIOL 1611 	Introduction to Organismal and Evolutionary Biology Laboratory 
+BIOL 1703 	Introduction to Molecular and Cellular Biology 
+BIOL 1711 	Introduction to Molecular and Cellular Biology Laboratory 
+BIOL 2013 	Ecology 
+BIOL 2124 	Genetics 
+BIOL 2143 	Evolution 
+BIOL 2151 	Human Anatomy Laboratory  
+BIOL 2153 	Human Anatomy 
+BIOL 2171 	Human Physiology Laboratory 
+BIOL 2173 	Human Physiology 
+BIOL 2524 	Field Botany 
+BIOL 3084 	Fundamentals of Microbiology 
+BIOL 3164 	Field Ecology 
+BIOL 3174 	Ornithology 
+BIOL 3204 	Comparative Vertebrate Anatomy 
+BIOL 3224 	Vertebrate Physiology 
+BIOL 3254 	Comparative Vertebrate Embryology 
+BIOL 3314 	The Fungi and Algae 
+BIOL 3364 	Parasitology 
+BIOL 3454 	Plant Anatomy 
+BIOL 3504 	Plant Diversity 
+BIOL 3513 	Medical Entomology 
+BIOL 3991 	Independent Research 
+BIOL 3992 	Independent Research 
+BIOL 3993 	Independent Research 
+BIOL 4003 	Protein Structure and Function 
+BIOL 4023 	Environmental Microbiology 
+BIOL 4054 	Histology 
+BIOL 4063 	Population Genetics 
+BIOL 4083 	Experimental Microbiology 
+BIOL 4093 	Population Ecology 
+BIOL 4113 	Pathogenic Microbiology 
+BIOL 4123 	Selected Topics in Microbiology 
+BIOL 4124 	Selected Topics in Microbiology 
+BIOL 4133 	Immunology 
+BIOL 4143 	Introduction to Virology 
+BIOL 4153 	Animal Behavior 
+BIOL 4163 	Experimental Techniques in Molecular Biology 
+BIOL 4173 	Principles of Neuroscience 
+BIOL 4183 	Biology of Cancer 
+BIOL 4193 	Biotechnology and Genetic Engineering 
+BIOL 4213 	Environmental Ethics and Conservation 
+BIOL 4234 	Comparative Animal Physiology 
+BIOL 4243 	Mechanisms of Animal Development 
+BIOL 4253 	Molecular Evolution 
+BIOL 4263 	Selected Topics in Molecular Genetics 
+BIOL 4283 	Selected Topics in Molecular Cell Biology 
+BIOL 4333 	Experimental Design 
+BIOL 4343 	Advanced Molecular Biology 
+BIOL 4383 	Selected Topics in Biological Science 
+BIOL 4384 	Selected Topics in Biological Science 
+BIOL 4464 	Plant Physiology 
+BIOL 4473 	Advanced Cell Biology  
+BIOL 4603 	Selected Topics in Invertebrate Zoology 
+BIOL 4604 	Selected Topics in Invertebrate Zoology 
+BIOL 4613 	Selected Topics in Vertebrate Zoology  
+BIOL 4614 	Selected Topics in Vertebrate Zoology  
+BIOL 4623 	Medical Botany 
+BIOL 4643 	Bioinformatics 
+BIOL 4933 	Senior Research in Biological Science I 
+BIOL 4943 	Senior Research in Biological Science II 
+BIOL 4991	Independent Research  
+BIOL 4992	Independent Research  
+BIOL 4993 	Independent Research  
+BIOL 5173 	Environmental Physiology 
+BIOL 5253 	Seminar in Organismic/Environmental Biology 
+BIOL 5263 	Seminar in Cell/Molecular Biology 
+BIOL 5863 	Selected Topics in Biology 

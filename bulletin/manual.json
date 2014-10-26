@@ -40,27 +40,27 @@
 					"type" : "tag",
 					"tag" : "cs_cs_elective",
 					"hours" : 9
-				}
+				},
 				{
 					"type" : "tag",
 					"tag" : "cs_math_elective",
 					"hours" : 6
-				}
+				},
 				{
 					"type" : "tag",
 					"tag" : "cs_ens_elective",
 					"hours" : 7
-				}
+				},
 				{
 					"type" : "tag",
 					"tag" : "block_1",
 					"hours" : 6
-				}
+				},
 				{
 					"type" : "tag",
 					"tag" : "block_2",
 					"hours" : 12
-				}
+				},
 				{
 					"type" : "general_elective",
 					"hours" : 12
@@ -70,7 +70,7 @@
 	],
 	
 	"tags" : {
-		"cs_cs_elective" [
+		"cs_cs_elective" : [
 			"CS 3023",
 			"CS 3031",
 			"CS 3043",

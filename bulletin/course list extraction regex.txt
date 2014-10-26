@@ -1,0 +1,8 @@
+Remove page breaks						`^.*</?page.*>.*\n`
+Remove non-bold text					`^.*</?text.*>.*\n`
+Process course numbers					`\t*<b>(\d{4}.*)\(.*hour.*\).*</b>`		`\1`
+Merge linebroken descriptions			` *</b>\n\t*<b> *`						` `
+Append descriptions to course numbers	`\n\t+<b>(.*)</b>`						`\t\1`
+cleanup weird shit
+trim trailing space						` +\n`									`\n`
+prepend department code
