@@ -28,8 +28,8 @@ node_modules
 .lock-wscript
 
 # Michael's weird stuff
-node.js.lnk
-nodejs.bat
+/node.js.lnk
+/nodejs.bat
 
 data
 MongoDB
