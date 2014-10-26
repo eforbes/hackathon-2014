@@ -1,0 +1,49 @@
+PHYS 1001 	The World of Physics
+PHYS 1003 	Liberal Art of Physics
+PHYS 1011 	Introductory Physics Laboratory I
+PHYS 1013 	Introductory Physics I
+PHYS 1021 	Introductory Physics Laboratory II
+PHYS 1023 	Introductory Physics II
+PHYS 1093 	Astronomy
+PHYS 2051 	General Physics I Laboratory
+PHYS 2053 	General Physics I
+PHYS 2061 	General Physics II Laboratory
+PHYS 2063 	General Physics II
+PHYS 2071 	General Physics III Laboratory
+PHYS 2073 	General Physics III
+PHYS 3043 	Statistical and Thermal Physics
+PHYS 3053 	Methods of Mathematical Physics in Physical Sciences
+PHYS 3072 	Senior Physics Laboratory
+PHYS 3112 	Physics Instrumentation Laboratory
+PHYS 3122 	Instrumentation Methods Laboratory
+PHYS 3133 	Introduction to Musical Acoustics
+PHYS 4003 	Classical Mechanics
+PHYS 4033 	Quantum Mechanics I
+PHYS 4043 	Quantum Mechanics II
+PHYS 4053 	Introduction to Material Science
+PHYS 4063 	Electricity and Magnetism
+PHYS 4073 	Electromagnetic Waves and Optics
+PHYS 4083 	Introduction to Nanoscience
+PHYS 4102 	Engineering Physics Project I
+PHYS 4201 	Enginering Physics Project II
+PHYS 4503 	Solid State Physics
+PHYS 4523 	Fundamentals of Photonics
+PHYS 4563 	Astrophysics
+PHYS 4861 	Special Topics
+PHYS 4863 	Special Topics
+PHYS 4871 	Research and Physics Literature
+PHYS 4872 	Research and Physics Literature
+PHYS 4873 	Research and Physics Literature
+PHYS 4971 	Undergraduate Research
+PHYS 4972 	Undergraduate Research
+PHYS 4973 	Undergraduate Research
+PHYS 4981 	Senior Thesis
+PHYS 4982 	Senior Thesis
+PHYS 4983 	Senior Thesis
+PHYS 4991 	Independent Study  
+PHYS 4992 	Independent Study  
+PHYS 4993 	Independent Study  
+PHYS 5003 	Advanced Classical Mechanics
+PHYS 5043 	Advanced Quantum Mechanics
+PHYS 5063 	Electromagnetic Theory
+PHYS 5083 	Statistical Mechanics
