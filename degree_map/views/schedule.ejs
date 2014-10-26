@@ -55,6 +55,7 @@
         </div>
         <div class="gridster classes">
             <ul>
+                <!--
                 <li data-row="2" data-col="1" data-sizex="1" data-sizey="1" name="MATH4123">
                     <h1>Linear Algebra</h1>
                     <p>MATH 4123</p>
@@ -72,6 +73,7 @@
                 <li data-row="<%=i%>" data-col="2" data-sizex="1" data-sizey="1" name="aaaaa"><h1>Hello</h1></li>
                 <% } %>
                 <li data-row="1" data-col="5" data-sizex="1" data-sizey="1" name="bbbbb"><h1>Such Column</h1></li>
+                -->
             </ul>
         </div>
     </section>
@@ -107,17 +109,21 @@
     </script>
     <script type="text/javascript">
         $(function() {
-            $(".gridster.classes > ul").gridster({
+            var gridster = $(".gridster.classes > ul").gridster({
                 namespace: '.classes',
                 widget_margins: [7, 7],
                 widget_base_dimensions: [130, 100],
                 max_cols: 10,
                 min_cols: 8,
                 serialize_params: function(courseDOM, coords) {
-                return {col: coords.col, row: coords.row, size_x: coords.size_x, size_y: coords.size_y, courseName: $(courseDOM).attr('name')}}
-
+                    return {col: coords.col, row: coords.row, size_x: coords.size_x, size_y: coords.size_y, courseName: $(courseDOM).attr('name')}}
             });
+            
+            <% for(var i=0; i < user.schedule.length; i++){ %>
+                gridster.data('gridster').add_widget('<li />', <%= user.schedule[i].size_x %>, <%= user.schedule[i].size_y %>, <%= user.schedule[i].col %>, <%= user.schedule[i].row %>);
+                <% } %>
         });
+
     </script>
     <script type="text/javascript">
         $(function() {
