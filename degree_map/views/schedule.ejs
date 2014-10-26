@@ -113,6 +113,7 @@
     <script type="text/javascript">
         $(document).ready(function(){
             var toHighlight = <%- JSON.stringify(toHighlight) %>;
+            console.log(toHighlight);
             $(".gridster.classes li").hover(function(e){
                 recurse(this.id.replace(/\s/g,'_'));
             },function(){
@@ -122,7 +123,7 @@
             function recurse(string){
               //console.log("string: "+string);
               for(var i=0; i < toHighlight[string].length;i++){
-                  $("#"+toHighlight[string][i].replace(/\s/g,"_")).css("box-shadow", "0 0 10px #fe2e2e");
+                  $("#"+toHighlight[string][i].replace(/\s/g,"_")).css("box-shadow", "0 0 15px #fe2e2e");
 
                   recurse(toHighlight[string][i].replace(/\s/g,"_"));
               }
