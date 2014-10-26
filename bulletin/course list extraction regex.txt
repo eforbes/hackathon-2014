@@ -6,4 +6,13 @@ cleanup weird shit
 trim trailing space						` +\n`									`\n`
 prepend department code
 
-remove all non bold
+
+
+
+
+
+
+
+OTHER JUNK:
+
+remove all non bold stuff				`^.*</?(pdf2xml|i|page|text|fontspec)(>| .*>).*\n`
