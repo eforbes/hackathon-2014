@@ -7,14 +7,21 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">Degree map</a>
+      <a class="navbar-brand" href="/">Degree Map</a>
     </div>
 
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="/">Home</a></li>
+        <% if (typeof nav == 'undefined') { %>
+        <li><a href="/">Home</a></li>
         <li><a href="/schedule">Map</a></li>
         <li><a href="/">About</a></li>
+        <% } else { %>
+          <% if(nav=='Home') {%><li class="active"><%}else{%><li><%}%><a href="/">Home</a></li>
+          <% if(nav=='Map') {%><li class="active"><%}else{%><li><%}%><a href="/schedule">Map</a></li>
+          <% if(nav=='About') {%><li class="active"><%}else{%><li><%}%><a href="/">About</a></li>
+
+        <% } %>
       </ul>
 
 

@@ -1,0 +1,663 @@
+		<text top="275" left="189" width="129" height="15" font="20">
+			<b>1003 (3 hours) Block 3 </b>
+		</text>
+		<text top="291" left="189" width="178" height="15" font="20">
+			<b>Introduction to Oceanography </b>
+		</text>
+		<text top="306" left="189" width="224" height="15" font="21">The physical nature of the oceans, and the </text>
+		<text top="321" left="189" width="237" height="15" font="21">geological, chemical and biological processes </text>
+		<text top="336" left="189" width="220" height="15" font="21">that affect the entire planet. Emphasis on </text>
+		<text top="351" left="189" width="250" height="15" font="21">interdependence of the biosphere, hydrosphere </text>
+		<text top="367" left="189" width="236" height="15" font="21">and atmosphere, influence of humankind on </text>
+		<text top="382" left="189" width="215" height="15" font="21">oceans, and costs and benefits of human </text>
+		<text top="397" left="189" width="209" height="15" font="21">exploitation. Oceanographic research is </text>
+		<text top="412" left="189" width="195" height="15" font="21">explored through student-conducted </text>
+		<text top="427" left="189" width="140" height="15" font="21">expedition to an area lake. </text>
+		<text top="451" left="189" width="128" height="15" font="20">
+			<b>1014 (4 hours) Block 3 </b>
+		</text>
+		<text top="467" left="189" width="102" height="15" font="20">
+			<b>Physical Geology </b>
+		</text>
+		<text top="482" left="189" width="210" height="15" font="21">General geology of Earth, to include its </text>
+		<text top="497" left="189" width="234" height="15" font="21">processes and products, including rocks and </text>
+		<text top="512" left="189" width="240" height="15" font="21">minerals, faults and folds, landslides, streams, </text>
+		<text top="527" left="189" width="241" height="15" font="21">glaciers, oceans, volcanoes, earthquakes, plate </text>
+		<text top="543" left="189" width="233" height="15" font="21">tectonics, and effects of and on humankind. </text>
+		<text top="558" left="189" width="235" height="15" font="21">Three hours lecture and one laboratory each </text>
+		<text top="573" left="189" width="33" height="15" font="21">week. </text>
+		<text top="597" left="189" width="129" height="15" font="20">
+			<b>1043 (3 hours) Block 3 </b>
+		</text>
+		<text top="612" left="189" width="176" height="15" font="20">
+			<b>Geology of the National Parks </b>
+		</text>
+		<text top="628" left="189" width="228" height="15" font="21">An overview of the geology of the national </text>
+		<text top="643" left="189" width="240" height="15" font="21">parks of the United States. Demonstration of </text>
+		<text top="658" left="189" width="231" height="15" font="21">geologic principles and processes, as well as </text>
+		<text top="673" left="189" width="227" height="15" font="21">earth history, using the dramatic geological </text>
+		<text top="688" left="189" width="220" height="15" font="21">examples preserved in our national parks. </text>
+		<text top="713" left="189" width="75" height="15" font="20">
+			<b>1991 (1 hour) </b>
+		</text>
+		<text top="728" left="189" width="186" height="15" font="20">
+			<b>Introduction to the Geosciences </b>
+		</text>
+		<text top="743" left="189" width="250" height="15" font="21">An overview and introduction to the geological </text>
+		<text top="758" left="189" width="49" height="15" font="21">sciences. </text>
+		<text top="782" left="189" width="87" height="15" font="20">
+			<b>2003 (3 hours)  </b>
+		</text>
+		<text top="797" left="189" width="144" height="15" font="20">
+			<b>History of the Biosphere </b>
+		</text>
+		<text top="813" left="189" width="197" height="15" font="21">History of life, when and under what </text>
+		<text top="828" left="189" width="206" height="15" font="21">circumstances different organisms first </text>
+		<text top="843" left="189" width="233" height="15" font="21">appeared, how they lived, their fossilization, </text>
+		<text top="858" left="189" width="250" height="15" font="21">the timing and causes of major extinctions, and </text>
+		<text top="873" left="189" width="244" height="15" font="21">the practical use of fossils. Laboratory surveys </text>
+		<text top="276" left="454" width="241" height="15" font="21">major fossil invertebrate groups, emphasizing </text>
+		<text top="291" left="454" width="231" height="15" font="21">biological significance of fossilized features. </text>
+		<text top="306" left="454" width="141" height="15" font="21">Prerequisite: GEOL 1014. </text>
+		<text top="330" left="454" width="130" height="15" font="20">
+			<b>2053 (3 hours) Block 3 </b>
+		</text>
+		<text top="345" left="454" width="98" height="15" font="20">
+			<b>Earth Resources </b>
+		</text>
+		<text top="361" left="454" width="231" height="15" font="21">Introduction to earth's resources: what they </text>
+		<text top="376" left="454" width="244" height="15" font="21">are, where and how they are located, and their </text>
+		<text top="391" left="454" width="225" height="15" font="21">utilization and exploitation by humankind. </text>
+		<text top="406" left="454" width="226" height="15" font="21">Topics include metals, industrial rocks and </text>
+		<text top="421" left="454" width="243" height="15" font="21">minerals, chemical minerals, fossil fuels, water </text>
+		<text top="436" left="454" width="241" height="15" font="21">and soils, as well as nuclear power, alternative </text>
+		<text top="452" left="454" width="235" height="15" font="21">energy sources, and resources for the future. </text>
+		<text top="476" left="454" width="130" height="15" font="20">
+			<b>2063 (3 hours) Block 3 </b>
+		</text>
+		<text top="491" left="454" width="219" height="15" font="20">
+			<b>Geological Hazards and Catastrophes </b>
+		</text>
+		<text top="506" left="454" width="200" height="15" font="21">Introduction to the origin, nature and </text>
+		<text top="521" left="454" width="224" height="15" font="21">prediction of both process-related hazards </text>
+		<text top="537" left="454" width="227" height="15" font="21">such as earthquakes, volcanoes, floods and </text>
+		<text top="552" left="454" width="237" height="15" font="21">coastal hazards and materials-related hazards </text>
+		<text top="567" left="454" width="222" height="15" font="21">such as asbestos, swelling soils and radon. </text>
+		<text top="582" left="454" width="209" height="15" font="21">Specific case examples are examined by </text>
+		<text top="597" left="454" width="246" height="15" font="21">accessing data and reports electronically. Local </text>
+		<text top="613" left="454" width="145" height="15" font="21">field trips may be included. </text>
+		<text top="637" left="454" width="83" height="15" font="20">
+			<b>2143 (3 hours) </b>
+		</text>
+		<text top="652" left="454" width="69" height="15" font="20">
+			<b>Mineralogy </b>
+		</text>
+		<text top="667" left="454" width="251" height="15" font="21">Systematic introduction to minerals as naturally </text>
+		<text top="682" left="454" width="174" height="15" font="21">occurring, crystalline substances, </text>
+		<text top="698" left="454" width="251" height="15" font="21">crystallography, crystal chemistry, classification, </text>
+		<text top="713" left="454" width="249" height="15" font="21">occurrences, and associations, plus megascopic </text>
+		<text top="728" left="454" width="230" height="15" font="21">and instrumental methods of identification. </text>
+		<text top="743" left="454" width="204" height="15" font="21">Two hours lecture and one three-hour </text>
+		<text top="758" left="454" width="225" height="15" font="21">laboratory session each week. Prerequisite: </text>
+		<text top="773" left="454" width="225" height="15" font="21">CHEM 1013. Corequisite: GEOL 1014. A </text>
+		<text top="789" left="454" width="226" height="15" font="21">working knowledge of plane geometry and </text>
+		<text top="804" left="454" width="133" height="15" font="21">trigonometry is essential. </text>
+		<text top="828" left="454" width="178" height="15" font="20">
+			<b>2571, 2572, 2573 (1, 2, or hours) </b>
+		</text>
+		<text top="843" left="454" width="228" height="15" font="20">
+			<b>Introduction to Geosciences Internship </b>
+		</text>
+		<text top="858" left="454" width="218" height="15" font="21">Development of critical career skills with </text>
+		<text top="874" left="454" width="197" height="15" font="21">emphasis on field and analytical skills </text>
+	</page>
+	<page number="435" position="absolute" top="0" left="0" height="1188" width="918">
+		<text top="56" left="216" width="93" height="11" font="10">Geology (GEOL) </text>
+		<text top="56" left="709" width="23" height="11" font="10">425 </text>
+		<text top="906" left="216" width="3" height="12" font="10"> </text>
+		<text top="81" left="216" width="222" height="15" font="21">pertaining to industrial applications of the </text>
+		<text top="96" left="216" width="248" height="15" font="21">Geosciences. Work will be in conjunction with </text>
+		<text top="111" left="216" width="238" height="15" font="21">industry mentor and faculty member. Course </text>
+		<text top="127" left="216" width="243" height="15" font="21">may be repeated for up to three total hours of </text>
+		<text top="142" left="216" width="239" height="15" font="21">credit. Prerequisites: Permission of instructor </text>
+		<text top="157" left="216" width="67" height="15" font="21">and mentor. </text>
+		<text top="181" left="216" width="157" height="15" font="20">
+			<b>2871, 2872, 2873 (1-3 hours) </b>
+		</text>
+		<text top="196" left="216" width="146" height="15" font="20">
+			<b>Introduction to Research </b>
+		</text>
+		<text top="212" left="216" width="229" height="15" font="21">Development of critical research skills with </text>
+		<text top="227" left="216" width="222" height="15" font="21">emphasis on field, lab and analytical skills. </text>
+		<text top="242" left="216" width="239" height="15" font="21">Work includes collection and analysis of field </text>
+		<text top="257" left="216" width="249" height="15" font="21">and lab data, literature search, and presentation </text>
+		<text top="272" left="216" width="244" height="15" font="21">of results. Course may be repeated for up to 3 </text>
+		<text top="287" left="216" width="240" height="15" font="21">total hours of credit. Prerequisite: Permission </text>
+		<text top="303" left="216" width="72" height="15" font="21">of instructor. </text>
+		<text top="327" left="216" width="76" height="15" font="20">
+			<b>3061 (1 hour) </b>
+		</text>
+		<text top="342" left="216" width="176" height="15" font="20">
+			<b>Structural Geology Laboratory </b>
+		</text>
+		<text top="357" left="216" width="207" height="15" font="21">Techniques of structural analysis in the </text>
+		<text top="372" left="216" width="240" height="15" font="21">laboratory using both graphical and analytical </text>
+		<text top="388" left="216" width="245" height="15" font="21">techniques. One three-hour laboratory session </text>
+		<text top="403" left="216" width="198" height="15" font="21">each week. Corequisite: GEOL 3063, </text>
+		<text top="418" left="216" width="194" height="15" font="21">laboratory and lecture must be taken </text>
+		<text top="433" left="216" width="72" height="15" font="21">concurrently. </text>
+		<text top="457" left="216" width="84" height="15" font="20">
+			<b>3063 (3 hours) </b>
+		</text>
+		<text top="473" left="216" width="201" height="15" font="20">
+			<b>Introduction to Structural Geology </b>
+		</text>
+		<text top="488" left="216" width="247" height="15" font="21">Structural features and the processes that form </text>
+		<text top="503" left="216" width="225" height="15" font="21">them. Description and origin of geological </text>
+		<text top="518" left="216" width="218" height="15" font="21">structures and their tectonic associations. </text>
+		<text top="533" left="216" width="222" height="15" font="21">Includes a required field trip. Prerequisite: </text>
+		<text top="549" left="216" width="217" height="15" font="21">GEOL 2143 or permission of instructor. </text>
+		<text top="564" left="216" width="240" height="15" font="21">Corequisite for geology majors: GEOL 3061. </text>
+		<text top="588" left="216" width="75" height="15" font="20">
+			<b>3151 (1 hour) </b>
+		</text>
+		<text top="603" left="216" width="197" height="15" font="20">
+			<b>Sedimentary Rocks and Processes </b>
+		</text>
+		<text top="618" left="216" width="66" height="15" font="20">
+			<b>Laboratory </b>
+		</text>
+		<text top="634" left="216" width="206" height="15" font="21">An introduction to the description and </text>
+		<text top="649" left="216" width="234" height="15" font="21">interpretation of sediments and sedimentary </text>
+		<text top="664" left="216" width="227" height="15" font="21">rocks. Field trips are required. Prerequisite: </text>
+		<text top="679" left="216" width="211" height="15" font="21">GEOL 1014. Corequisite: GEOL 3153. </text>
+		<text top="703" left="216" width="83" height="15" font="20">
+			<b>3153 (3 hours) </b>
+		</text>
+		<text top="718" left="216" width="198" height="15" font="20">
+			<b>Sedimentary Rocks and Processes </b>
+		</text>
+		<text top="734" left="216" width="238" height="15" font="21">An introduction to the processes responsible </text>
+		<text top="749" left="216" width="233" height="15" font="21">for production, transport, and deposition of </text>
+		<text top="764" left="216" width="251" height="15" font="21">sedimentary particles. Overview of sedimentary </text>
+		<text top="779" left="216" width="205" height="15" font="21">environments and facies. Emphasis on </text>
+		<text top="794" left="216" width="218" height="15" font="21">principles and applications. Prerequisites: </text>
+		<text top="810" left="216" width="177" height="15" font="21">GEOL 1014 and junior standing. </text>
+		<text top="834" left="216" width="84" height="15" font="20">
+			<b>3573 (3 hours) </b>
+		</text>
+		<text top="849" left="216" width="140" height="15" font="20">
+			<b>Environmental Geology </b>
+		</text>
+		<text top="864" left="216" width="207" height="15" font="21">Application of geoscience principles to </text>
+		<text top="879" left="216" width="215" height="15" font="21">environmental problems. Topics include </text>
+		<text top="81" left="481" width="248" height="15" font="21">flooding, landslides, erosion, groundwater, and </text>
+		<text top="96" left="481" width="229" height="15" font="21">the interpretation of topographic maps and </text>
+		<text top="112" left="481" width="246" height="15" font="21">aerial photographs. Prerequisites: GEOL 1014 </text>
+		<text top="127" left="481" width="192" height="15" font="21">or GEOL 2003 and junior standing. </text>
+		<text top="151" left="481" width="83" height="15" font="20">
+			<b>4016 (6 hours) </b>
+		</text>
+		<text top="166" left="481" width="84" height="15" font="20">
+			<b>Field Geology </b>
+		</text>
+		<text top="181" left="481" width="248" height="15" font="21">Required for all geology majors. Students must </text>
+		<text top="196" left="481" width="248" height="15" font="21">take this course at another university. Mapping </text>
+		<text top="212" left="481" width="234" height="15" font="21">and interpretation of the geology of selected </text>
+		<text top="227" left="481" width="199" height="15" font="21">areas, concentrating on structural and </text>
+		<text top="242" left="481" width="234" height="15" font="21">petrologic aspects. Several mapping projects </text>
+		<text top="257" left="481" width="220" height="15" font="21">using aerial photographs and topographic </text>
+		<text top="272" left="481" width="207" height="15" font="21">maps, final maps, and short reports are </text>
+		<text top="288" left="481" width="239" height="15" font="21">required. Prerequisites: GEOG 3053, GEOL </text>
+		<text top="303" left="481" width="181" height="15" font="21">3063, 3061, 3153, 3151, and 4144. </text>
+		<text top="327" left="481" width="84" height="15" font="20">
+			<b>4063 (3 hours) </b>
+		</text>
+		<text top="342" left="481" width="113" height="15" font="20">
+			<b>Petroleum Geology </b>
+		</text>
+		<text top="357" left="481" width="198" height="15" font="21">Synthesis of geology, geophysics, and </text>
+		<text top="373" left="481" width="199" height="15" font="21">geochemistry as applied to petroleum </text>
+		<text top="388" left="481" width="237" height="15" font="21">exploration, petroleum production, reservoir </text>
+		<text top="403" left="481" width="232" height="15" font="21">characterization, and enhanced oil recovery. </text>
+		<text top="418" left="481" width="212" height="15" font="21">Prerequisites: GEOL 1014 and 3153, or </text>
+		<text top="433" left="481" width="133" height="15" font="21">permission of instructor. </text>
+		<text top="458" left="481" width="84" height="15" font="20">
+			<b>4083 (3 hours) </b>
+		</text>
+		<text top="473" left="481" width="233" height="15" font="20">
+			<b>Introduction to Geographic Information </b>
+		</text>
+		<text top="488" left="481" width="50" height="15" font="20">
+			<b>Systems </b>
+		</text>
+		<text top="503" left="481" width="242" height="15" font="21">Fundamentals of the design and use of spatial </text>
+		<text top="518" left="481" width="247" height="15" font="21">datasets in computerized mapping and analysis </text>
+		<text top="533" left="481" width="246" height="15" font="21">of spatial data. Technical and scientific aspects </text>
+		<text top="549" left="481" width="192" height="15" font="21">of the collection, query, analysis and </text>
+		<text top="564" left="481" width="242" height="15" font="21">presentation of spatial data from a wide range </text>
+		<text top="579" left="481" width="245" height="15" font="21">of disciplines using industry standard software </text>
+		<text top="594" left="481" width="242" height="15" font="21">tools. Lecture and computer lab components. </text>
+		<text top="609" left="481" width="217" height="15" font="21">Prerequisites: GEOL 1014 or equivalent; </text>
+		<text top="625" left="481" width="230" height="15" font="21">senior standing or permission of instructor. </text>
+		<text top="649" left="481" width="83" height="15" font="20">
+			<b>4144 (4 hours) </b>
+		</text>
+		<text top="664" left="481" width="219" height="15" font="20">
+			<b>Igneous and Metamorphic Rocks and </b>
+		</text>
+		<text top="679" left="481" width="59" height="15" font="20">
+			<b>Processes </b>
+		</text>
+		<text top="694" left="481" width="244" height="15" font="21">Igneous and metamorphic rocks of the earth's </text>
+		<text top="710" left="481" width="206" height="15" font="21">crust and their processes of formation, </text>
+		<text top="725" left="481" width="236" height="15" font="21">alteration, and occurrence in space and time. </text>
+		<text top="740" left="481" width="209" height="15" font="21">Laboratory stresses the coordination of </text>
+		<text top="755" left="481" width="245" height="15" font="21">megascopic and petrographic studies of rocks. </text>
+		<text top="770" left="481" width="229" height="15" font="21">Three hours lecture and one three-hour lab </text>
+		<text top="786" left="481" width="241" height="15" font="21">each week. Prerequisite: GEOL 2143. Should </text>
+		<text top="801" left="481" width="208" height="15" font="21">be completed before taking field camp. </text>
+		<text top="825" left="481" width="84" height="15" font="20">
+			<b>4253 (3 hours) </b>
+		</text>
+		<text top="840" left="481" width="95" height="15" font="20">
+			<b>Marine Geology </b>
+		</text>
+		<text top="855" left="481" width="235" height="15" font="21">Rocks, sediments, geophysics, structure, and </text>
+		<text top="871" left="481" width="219" height="15" font="21">stratigraphy of the ocean basins and their </text>
+	</page>
+	<page number="436" position="absolute" top="0" left="0" height="1188" width="918">
+		<text top="56" left="189" width="23" height="11" font="10">426 </text>
+		<text top="56" left="439" width="266" height="11" font="10">The College of Engineering and Natural Sciences </text>
+		<text top="905" left="189" width="3" height="12" font="10"> </text>
+		<text top="901" left="702" width="4" height="16" font="11"> </text>
+		<text top="81" left="189" width="231" height="15" font="21">margins. Prerequisite or corequisite: GEOL </text>
+		<text top="96" left="189" width="176" height="15" font="21">3153 or permission of instructor. </text>
+		<text top="120" left="189" width="83" height="15" font="20">
+			<b>4513 (3 hours) </b>
+		</text>
+		<text top="136" left="189" width="85" height="15" font="20">
+			<b>Hydrogeology </b>
+		</text>
+		<text top="151" left="189" width="249" height="15" font="21">Introduction to the properties of water and the </text>
+		<text top="166" left="189" width="225" height="15" font="21">hydrologic cycle. Surface and groundwater </text>
+		<text top="181" left="189" width="236" height="15" font="21">systems, exploration techniques, well design, </text>
+		<text top="196" left="189" width="240" height="15" font="21">well hydraulics and aquifer tests. Prerequisite: </text>
+		<text top="212" left="189" width="73" height="15" font="21">GEOL 3153. </text>
+		<text top="236" left="189" width="84" height="15" font="20">
+			<b>4523 (3 hours) </b>
+		</text>
+		<text top="251" left="189" width="172" height="15" font="20">
+			<b>Environmental Geochemistry </b>
+		</text>
+		<text top="266" left="189" width="206" height="15" font="21">Geochemical processes controlling the </text>
+		<text top="281" left="189" width="219" height="15" font="21">composition of the natural system and its </text>
+		<text top="296" left="189" width="184" height="15" font="21">response to natural and man-made </text>
+		<text top="312" left="189" width="249" height="15" font="21">disturbances. Major, trace element and isotopic </text>
+		<text top="327" left="189" width="239" height="15" font="21">compositions of the atmosphere, surface and </text>
+		<text top="342" left="189" width="234" height="15" font="21">subsurface waters, and the rock/soil system. </text>
+		<text top="357" left="189" width="241" height="15" font="21">Prerequisite: Junior standing or permission of </text>
+		<text top="372" left="189" width="77" height="15" font="21">the instructor. </text>
+		<text top="397" left="189" width="157" height="15" font="20">
+			<b>4571, 4572, 4573 (1-3 hours) </b>
+		</text>
+		<text top="412" left="189" width="138" height="15" font="20">
+			<b>Geosciences Internship </b>
+		</text>
+		<text top="427" left="189" width="248" height="15" font="21">Unpaid internship under supervision of faculty </text>
+		<text top="442" left="189" width="241" height="15" font="21">member and industry mentor. Course may be </text>
+		<text top="81" left="454" width="218" height="15" font="21">repeated for up to 3 total hours of credit. </text>
+		<text top="96" left="454" width="221" height="15" font="21">Prerequisite: Permission of instructor and </text>
+		<text top="111" left="454" width="45" height="15" font="21">mentor. </text>
+		<text top="136" left="454" width="189" height="15" font="20">
+			<b>4861, 4862, 4863, 4864, 4865, 4866 </b>
+		</text>
+		<text top="151" left="454" width="65" height="15" font="20">
+			<b>(1-6 hours) </b>
+		</text>
+		<text top="166" left="454" width="152" height="15" font="20">
+			<b>Special Topics in Geology </b>
+		</text>
+		<text top="190" left="454" width="164" height="15" font="20">
+			<b>4871, 4872, 4873 (1 - 3 hours) </b>
+		</text>
+		<text top="205" left="454" width="146" height="15" font="20">
+			<b>Undergraduate Research </b>
+		</text>
+		<text top="221" left="454" width="196" height="15" font="21">Individual research project under the </text>
+		<text top="236" left="454" width="240" height="15" font="21">supervision of a faculty member. Course may </text>
+		<text top="251" left="454" width="234" height="15" font="21">be repeated for up to 3 total hours of credit. </text>
+		<text top="266" left="454" width="205" height="15" font="21">Prerequisite: Permission of instructor.  </text>
+		<text top="290" left="454" width="84" height="15" font="20">
+			<b>4983 (3 hours) </b>
+		</text>
+		<text top="306" left="454" width="81" height="15" font="20">
+			<b>Senior Thesis </b>
+		</text>
+		<text top="321" left="454" width="247" height="15" font="21">Development of an individual research project </text>
+		<text top="336" left="454" width="215" height="15" font="21">under the direction of a faculty member. </text>
+		<text top="351" left="454" width="209" height="15" font="21">Topics may include field, laboratory, or </text>
+		<text top="366" left="454" width="109" height="15" font="21">computing research. </text>
+		<text top="391" left="454" width="189" height="15" font="20">
+			<b>4991, 4992, 4993, 4993 (1-4 hours) </b>
+		</text>
+		<text top="406" left="454" width="112" height="15" font="20">
+			<b>Independent Study </b>
+		</text>
+		<text top="421" left="454" width="251" height="15" font="21">Independent or group studies on special topics. </text>
+		<text top="436" left="454" width="239" height="15" font="21">Prerequisites: Permission of instructor and at </text>
+		<text top="451" left="454" width="92" height="15" font="21">least a B average. </text>
+		<text top="484" left="189" width="182" height="17" font="31">
+			<b>Approved Graduate Courses </b>
+		</text>
+		<text top="501" left="189" width="509" height="17" font="27">The following graduate courses may be taken for undergraduate credit at the 5000 level </text>
+		<text top="518" left="189" width="389" height="17" font="27">with special permission from the department chair and instructor.  </text>
+		<text top="544" left="189" width="82" height="15" font="20">
+			<b>5113 (3 hours) </b>
+		</text>
+		<text top="559" left="189" width="92" height="15" font="20">
+			<b>Plate Tectonics </b>
+		</text>
+		<text top="574" left="189" width="246" height="15" font="21">Lecture and seminar covering global tectonics, </text>
+		<text top="589" left="189" width="202" height="15" font="21">plate boundary phenomena, structural </text>
+		<text top="605" left="189" width="214" height="15" font="21">associations and assemblages, petrologic </text>
+		<text top="620" left="189" width="197" height="15" font="21">associations and assemblages and the </text>
+		<text top="635" left="189" width="227" height="15" font="21">mechanics of plate motion and interaction. </text>
+		<text top="650" left="189" width="229" height="15" font="21">Term paper required. Prerequisites: GEOL </text>
+		<text top="665" left="189" width="237" height="15" font="21">3063, 3153, 4144; MATH 2073; PHYS 2063; </text>
+		<text top="681" left="189" width="147" height="15" font="21">or permission of instructor. </text>
+		<text top="705" left="189" width="84" height="15" font="20">
+			<b>5263 (3 hours) </b>
+		</text>
+		<text top="720" left="189" width="151" height="15" font="20">
+			<b>Carbonate Sedimentology </b>
+		</text>
+		<text top="735" left="189" width="222" height="15" font="21">Carbonate depositional environments and </text>
+		<text top="750" left="189" width="230" height="15" font="21">description and classification of limestones. </text>
+		<text top="766" left="189" width="210" height="15" font="21">Field trips may be required, for which a </text>
+		<text top="781" left="189" width="225" height="15" font="21">nominal fee will be assessed. Prerequisites: </text>
+		<text top="796" left="189" width="211" height="15" font="21">GEOL 2003 and 3153 or permission of </text>
+		<text top="811" left="189" width="57" height="15" font="21">instructor. </text>
+		<text top="835" left="189" width="84" height="15" font="20">
+			<b>5303 (3 hours) </b>
+		</text>
+		<text top="851" left="189" width="171" height="15" font="20">
+			<b>Tectonics and Sedimentation </b>
+		</text>
+		<text top="866" left="189" width="222" height="15" font="21">An evaluation of the relationship between </text>
+		<text top="881" left="189" width="213" height="15" font="21">tectonic deformation and sedimentation </text>
+		<text top="544" left="454" width="235" height="15" font="21">processes. In addition to traditional lectures, </text>
+		<text top="559" left="454" width="234" height="15" font="21">readings from the current literature and case </text>
+		<text top="574" left="454" width="236" height="15" font="21">studies will be discussed. Includes a required </text>
+		<text top="590" left="454" width="227" height="15" font="21">field trip to the Arkoma-Ouachita foreland </text>
+		<text top="605" left="454" width="244" height="15" font="21">systems. Prerequisites: GEOL 3063, 3153 and </text>
+		<text top="620" left="454" width="133" height="15" font="21">permission of instructor. </text>
+		<text top="644" left="454" width="84" height="15" font="20">
+			<b>5333 (3 hours) </b>
+		</text>
+		<text top="659" left="454" width="188" height="15" font="20">
+			<b>Advanced Stratigraphic Analysis </b>
+		</text>
+		<text top="675" left="454" width="207" height="15" font="21">Application of quantitative methods to </text>
+		<text top="690" left="454" width="250" height="15" font="21">stratigraphic analysis. Survey and application of </text>
+		<text top="705" left="454" width="207" height="15" font="21">sequence stratigraphy. Course activities </text>
+		<text top="720" left="454" width="231" height="15" font="21">emphasize hands-on exercises. Prerequisite: </text>
+		<text top="735" left="454" width="133" height="15" font="21">Permission of instructor. </text>
+		<text top="760" left="454" width="83" height="15" font="20">
+			<b>5413 (3 hours) </b>
+		</text>
+		<text top="775" left="454" width="83" height="15" font="20">
+			<b>Geochemistry </b>
+		</text>
+		<text top="790" left="454" width="189" height="15" font="21">Chemical principles that govern the </text>
+		<text top="805" left="454" width="236" height="15" font="21">distribution of elements and isotopes among </text>
+		<text top="820" left="454" width="242" height="15" font="21">the atmosphere, hydrosphere, and solid earth. </text>
+		<text top="835" left="454" width="239" height="15" font="21">Prerequisites: GEOL 1014 and CHEM 1023. </text>
+	</page>
+	<page number="437" position="absolute" top="0" left="0" height="1188" width="918">
+		<text top="56" left="216" width="93" height="11" font="10">Geology (GEOL) </text>
+		<text top="56" left="709" width="23" height="11" font="10">427 </text>
+		<text top="906" left="216" width="3" height="12" font="10"> </text>
+		<text top="81" left="216" width="84" height="15" font="20">
+			<b>5433 (3 hours) </b>
+		</text>
+		<text top="96" left="216" width="133" height="15" font="20">
+			<b>Organic Geochemistry </b>
+		</text>
+		<text top="111" left="216" width="219" height="15" font="21">Geochemistry of organic substances with </text>
+		<text top="127" left="216" width="215" height="15" font="21">emphasis on the origin and diagenesis of </text>
+		<text top="142" left="216" width="248" height="15" font="21">petroleum. Prerequisites: CHEM 1023, GEOL </text>
+		<text top="157" left="216" width="179" height="15" font="21">4063, or permission of instructor. </text>
+		<text top="181" left="216" width="83" height="15" font="20">
+			<b>5513 (3 hours) </b>
+		</text>
+		<text top="196" left="216" width="83" height="15" font="20">
+			<b>Microanalysis </b>
+		</text>
+		<text top="212" left="216" width="234" height="15" font="21">Application of microanalytical techniques to </text>
+		<text top="227" left="216" width="245" height="15" font="21">the chemical and structural characterization of </text>
+		<text top="242" left="216" width="239" height="15" font="21">solid materials. Electron beam imaging and x-</text>
+		<text top="257" left="216" width="221" height="15" font="21">ray microanalysis, x-ray diffraction, micro-</text>
+		<text top="272" left="216" width="192" height="15" font="21">vibrational spectroscopy and optical </text>
+		<text top="287" left="216" width="207" height="15" font="21">microscopy. One lecture per week plus </text>
+		<text top="303" left="216" width="203" height="15" font="21">independent lab projects. Prerequisite: </text>
+		<text top="318" left="216" width="133" height="15" font="21">Permission of instructor. </text>
+		<text top="81" left="481" width="83" height="15" font="20">
+			<b>5713 (3 hours) </b>
+		</text>
+		<text top="96" left="481" width="115" height="15" font="20">
+			<b>Regional Tectonics </b>
+		</text>
+		<text top="111" left="481" width="215" height="15" font="21">Review course covering structural styles, </text>
+		<text top="127" left="481" width="235" height="15" font="21">associations, and models. Involves extensive </text>
+		<text top="142" left="481" width="240" height="15" font="21">reading on geology of selected areas. Seminar </text>
+		<text top="157" left="481" width="230" height="15" font="21">format, term papers required. Prerequisites: </text>
+		<text top="172" left="481" width="225" height="15" font="21">GEOL 3063 and permission of instructor. </text>
+		<text top="196" left="481" width="84" height="15" font="20">
+			<b>5723 (3 hours) </b>
+		</text>
+		<text top="212" left="481" width="88" height="15" font="20">
+			<b>Geomechanics </b>
+		</text>
+		<text top="227" left="481" width="240" height="15" font="21">Introduction to the application of continuum </text>
+		<text top="242" left="481" width="244" height="15" font="21">mechanics to geology. Topics covered include </text>
+		<text top="257" left="481" width="227" height="15" font="21">stress, strain, buckling, bending, fracturing, </text>
+		<text top="272" left="481" width="247" height="15" font="21">isostasy, and heat conduction. Term paper and </text>
+		<text top="288" left="481" width="213" height="15" font="21">field trip required. A nominal fee will be </text>
+		<text top="303" left="481" width="249" height="15" font="21">charged to cover travel expenses. Prerequisites: </text>
+		<text top="318" left="481" width="243" height="15" font="21">GEOL 3063 3061; MATH 2073; PHYS 2063; </text>
+		<text top="333" left="481" width="155" height="15" font="21">and permission of instructor. </text>
+		<text top="371" left="216" width="175" height="17" font="12">
+			<b>Geophysics (GPHY) </b>
+		</text>
+		<text top="400" left="216" width="84" height="15" font="20">
+			<b>2503 (3 hours) </b>
+		</text>
+		<text top="416" left="216" width="118" height="15" font="20">
+			<b>Physics of the Earth </b>
+		</text>
+		<text top="431" left="216" width="246" height="15" font="21">Introduction to the study of the physics of the </text>
+		<text top="446" left="216" width="249" height="15" font="21">solid Earth, including the workings of both the </text>
+		<text top="461" left="216" width="232" height="15" font="21">Earth's surface and its deep interior. Covers </text>
+		<text top="476" left="216" width="234" height="15" font="21">principles of seismology, gravity, magnetism </text>
+		<text top="491" left="216" width="244" height="15" font="21">and heat flow applied to whole earth structure </text>
+		<text top="507" left="216" width="216" height="15" font="21">and plate tectonics. Description of crust, </text>
+		<text top="522" left="216" width="231" height="15" font="21">mantle, and core of the earth as determined </text>
+		<text top="537" left="216" width="218" height="15" font="21">from geophysical methods. Prerequisites: </text>
+		<text top="552" left="216" width="241" height="15" font="21">GEOL 1014 and MATH 2014, or permission </text>
+		<text top="567" left="216" width="72" height="15" font="21">of instructor. </text>
+		<text top="592" left="216" width="84" height="15" font="20">
+			<b>4003 (3 hours) </b>
+		</text>
+		<text top="607" left="216" width="131" height="15" font="20">
+			<b>Petroleum Seismology </b>
+		</text>
+		<text top="622" left="216" width="232" height="15" font="21">Acquisition, processing and (as time allows) </text>
+		<text top="637" left="216" width="232" height="15" font="21">interpretation of 3D seismic reflection data. </text>
+		<text top="652" left="216" width="229" height="15" font="21">Topics include wave properties, ID seismic </text>
+		<text top="668" left="216" width="217" height="15" font="21">concepts, 2D seismic acquisition, seismic </text>
+		<text top="683" left="216" width="209" height="15" font="21">economics, land and marine acquisition </text>
+		<text top="698" left="216" width="202" height="15" font="21">methods, overview of processing with </text>
+		<text top="713" left="216" width="248" height="15" font="21">emphasis on migration concepts. Prerequisites: </text>
+		<text top="728" left="216" width="228" height="15" font="21">MATH 2024, PHYS 2063, senior standing. </text>
+		<text top="753" left="216" width="84" height="15" font="20">
+			<b>4023 (3 hours) </b>
+		</text>
+		<text top="768" left="216" width="171" height="15" font="20">
+			<b>Field Methods in Geophysics </b>
+		</text>
+		<text top="783" left="216" width="238" height="15" font="21">The application of geophysical field methods </text>
+		<text top="798" left="216" width="231" height="15" font="21">for delineating near-surface features and/or </text>
+		<text top="813" left="216" width="190" height="15" font="21">structures as applied to exploration, </text>
+		<text top="829" left="216" width="224" height="15" font="21">environmental, and engineering problems. </text>
+		<text top="844" left="216" width="175" height="15" font="21">Field design, ground positioning, </text>
+		<text top="859" left="216" width="248" height="15" font="21">instrumentation, practical field data acquisition </text>
+		<text top="874" left="216" width="212" height="15" font="21">with gravimeter, magnetometer, ground-</text>
+		<text top="400" left="481" width="200" height="15" font="21">penetrating radar, electrical resistivity, </text>
+		<text top="416" left="481" width="214" height="15" font="21">electromagnetic, and seismic equipment. </text>
+		<text top="431" left="481" width="222" height="15" font="21">Processing and interpreting acquired data. </text>
+		<text top="446" left="481" width="196" height="15" font="21">Prerequisites: GPHY 4053 and 4003. </text>
+		<text top="470" left="481" width="84" height="15" font="20">
+			<b>4033 (3 hours) </b>
+		</text>
+		<text top="485" left="481" width="169" height="15" font="20">
+			<b>Seismic Data Processing and </b>
+		</text>
+		<text top="501" left="481" width="83" height="15" font="20">
+			<b>Interpretation </b>
+		</text>
+		<text top="516" left="481" width="241" height="15" font="21">Fourier Transform Theory in continuous and </text>
+		<text top="531" left="481" width="196" height="15" font="21">discrete time. Filter theory and the Z-</text>
+		<text top="546" left="481" width="245" height="15" font="21">transform, filter stability, introduction to wave </text>
+		<text top="561" left="481" width="239" height="15" font="21">equation. Interpretation of processed seismic </text>
+		<text top="577" left="481" width="247" height="15" font="21">data. Prerequisites: GPHY 4003, MATH 4123, </text>
+		<text top="592" left="481" width="32" height="15" font="21">4143. </text>
+		<text top="616" left="481" width="84" height="15" font="20">
+			<b>4053 (3 hours) </b>
+		</text>
+		<text top="631" left="481" width="117" height="15" font="20">
+			<b>Applied Geophysics </b>
+		</text>
+		<text top="646" left="481" width="211" height="15" font="21">Survey of applied geophysics describing </text>
+		<text top="662" left="481" width="237" height="15" font="21">physical methods involved in exploration for </text>
+		<text top="677" left="481" width="232" height="15" font="21">hydrocarbons and minerals. Applications of </text>
+		<text top="692" left="481" width="234" height="15" font="21">physics to measurements made for mapping </text>
+		<text top="707" left="481" width="248" height="15" font="21">near surface earth structure. Gravity, magnetic, </text>
+		<text top="722" left="481" width="244" height="15" font="21">electrical, electro-magnetic, bore-hole logging, </text>
+		<text top="738" left="481" width="203" height="15" font="21">ground penetrating radar, seismic, and </text>
+		<text top="753" left="481" width="247" height="15" font="21">radioactivity methods for mapping sub-surface </text>
+		<text top="768" left="481" width="203" height="15" font="21">will be discussed. Introduction to data </text>
+		<text top="783" left="481" width="202" height="15" font="21">processing and interpretation with the </text>
+		<text top="798" left="481" width="204" height="15" font="21">objective of locating natural resources. </text>
+		<text top="813" left="481" width="198" height="15" font="21">Prerequisites: GPHY 2053, EE 3023. </text>
+	</page>
+	<page number="438" position="absolute" top="0" left="0" height="1188" width="918">
+		<text top="56" left="189" width="23" height="11" font="10">428 </text>
+		<text top="56" left="439" width="266" height="11" font="10">The College of Engineering and Natural Sciences </text>
+		<text top="71" left="189" width="4" height="16" font="11"> </text>
+		<text top="905" left="189" width="3" height="12" font="10"> </text>
+		<text top="901" left="702" width="4" height="16" font="11"> </text>
+		<text top="88" left="189" width="84" height="15" font="20">
+			<b>4063 (3 hours) </b>
+		</text>
+		<text top="103" left="189" width="189" height="15" font="20">
+			<b>Well Logging for Geologists and </b>
+		</text>
+		<text top="118" left="189" width="83" height="15" font="20">
+			<b>Geophysicists </b>
+		</text>
+		<text top="133" left="189" width="243" height="15" font="21">Electrical, acoustic, and radioactive properties </text>
+		<text top="149" left="189" width="236" height="15" font="21">of rocks. Introduction to well logging theory </text>
+		<text top="164" left="189" width="198" height="15" font="21">and interpretation of subsurface logs. </text>
+		<text top="179" left="189" width="214" height="15" font="21">Prerequisites: GEOL 3153, PHYS 2063. </text>
+		<text top="203" left="189" width="83" height="15" font="20">
+			<b>4513 (3 hours) </b>
+		</text>
+		<text top="218" left="189" width="158" height="15" font="20">
+			<b>Environmental Geophysics </b>
+		</text>
+		<text top="234" left="189" width="231" height="15" font="21">Application of geophysical methods to near </text>
+		<text top="249" left="189" width="248" height="15" font="21">surface problems. Topics include microgravity, </text>
+		<text top="264" left="189" width="227" height="15" font="21">magnetics, electrical conductivity, electrical </text>
+		<text top="279" left="189" width="214" height="15" font="21">resistivity, and ground penetrating radar. </text>
+		<text top="88" left="454" width="195" height="15" font="21">Emphasis given to case histories and </text>
+		<text top="103" left="454" width="214" height="15" font="21">interpretation. Prerequisite: PHYS 2063, </text>
+		<text top="118" left="454" width="133" height="15" font="21">permission of instructor. </text>
+		<text top="143" left="454" width="189" height="15" font="20">
+			<b>4861, 4862, 4863, 4864, 4865, 4866 </b>
+		</text>
+		<text top="158" left="454" width="65" height="15" font="20">
+			<b>(1-6 hours) </b>
+		</text>
+		<text top="173" left="454" width="171" height="15" font="20">
+			<b>Special Topics in Geophysics </b>
+		</text>
+		<text top="197" left="454" width="189" height="15" font="20">
+			<b>4991, 4992, 4993, 4994 (1-4 hours) </b>
+		</text>
+		<text top="212" left="454" width="112" height="15" font="20">
+			<b>Independent Study </b>
+		</text>
+		<text top="227" left="454" width="251" height="15" font="21">Independent or group studies on special topics. </text>
+		<text top="243" left="454" width="217" height="15" font="21">Prerequisites: Permission and at least a B </text>
+		<text top="258" left="454" width="42" height="15" font="21">average.</text>
+		<text top="303" left="189" width="182" height="17" font="31">
+			<b>Approved Graduate Courses </b>
+		</text>
+		<text top="320" left="189" width="509" height="17" font="27">The following graduate courses may be taken for undergraduate credit at the 5000 level </text>
+		<text top="337" left="189" width="389" height="17" font="27">with special permission from the department chair and instructor.  </text>
+		<text top="354" left="189" width="3" height="15" font="21"/>
+		<text top="369" left="189" width="83" height="15" font="20">
+			<b>5133 (3 hours) </b>
+		</text>
+		<text top="384" left="189" width="140" height="15" font="20">
+			<b>Exploration Seismology </b>
+		</text>
+		<text top="400" left="189" width="238" height="15" font="21">Mathematical treatment of wave propagation </text>
+		<text top="415" left="189" width="238" height="15" font="21">theory pertinent to hydrocarbon exploration. </text>
+		<text top="430" left="189" width="209" height="15" font="21">Focuses on field design criteria for data </text>
+		<text top="445" left="189" width="237" height="15" font="21">acquisition and theoretical aspects of seismic </text>
+		<text top="460" left="189" width="234" height="15" font="21">data processing. Prerequisites: MATH 4123, </text>
+		<text top="475" left="189" width="179" height="15" font="21">4143, GPHY 4003 or permission. </text>
+		<text top="500" left="189" width="83" height="15" font="20">
+			<b>5153 (3 hours) </b>
+		</text>
+		<text top="515" left="189" width="225" height="15" font="20">
+			<b>Integrated Seismic Data Interpretation </b>
+		</text>
+		<text top="530" left="189" width="184" height="15" font="21">Focuses on aspects of seismic data </text>
+		<text top="545" left="189" width="250" height="15" font="21">interpretation for detailing subsurface structure </text>
+		<text top="560" left="189" width="195" height="15" font="21">and rock properties for hydrocarbon </text>
+		<text top="576" left="189" width="213" height="15" font="21">exploration. Covers the methodology of </text>
+		<text top="591" left="189" width="230" height="15" font="21">integrated interpretation of seismic, gravity, </text>
+		<text top="606" left="189" width="218" height="15" font="21">magnetic and well log data. Prerequisites: </text>
+		<text top="621" left="189" width="243" height="15" font="21">GPHY 4003 and GEOL 4063, or permission. </text>
+		<text top="369" left="454" width="83" height="15" font="20">
+			<b>5173 (3 hours) </b>
+		</text>
+		<text top="384" left="454" width="237" height="15" font="20">
+			<b>Time Series Analysis and Inverse Theory </b>
+		</text>
+		<text top="400" left="454" width="233" height="15" font="21">Covers aspects of digital data processing for </text>
+		<text top="415" left="454" width="251" height="15" font="21">signal extraction. Time series analysis will focus </text>
+		<text top="430" left="454" width="247" height="15" font="21">on conditioning the acquired data. Also covers </text>
+		<text top="445" left="454" width="238" height="15" font="21">parameter estimation through linear and non-</text>
+		<text top="460" left="454" width="231" height="15" font="21">linear inverse modeling of geophysical data. </text>
+		<text top="476" left="454" width="194" height="15" font="21">Prerequisites: MATH 4123, 4143, or </text>
+		<text top="491" left="454" width="64" height="15" font="21">permission. </text>
+		<text top="515" left="454" width="83" height="15" font="20">
+			<b>5183 (3 hours) </b>
+		</text>
+		<text top="530" left="454" width="203" height="15" font="20">
+			<b>Special Processing of Seismic Data </b>
+		</text>
+		<text top="545" left="454" width="236" height="15" font="21">Focuses on processing real seismic data on a </text>
+		<text top="560" left="454" width="237" height="15" font="21">workstation to deliver practical experience in </text>
+		<text top="576" left="454" width="240" height="15" font="21">advanced seismic data processing for detailed </text>
+		<text top="591" left="454" width="214" height="15" font="21">imaging of the subsurface. Prerequisites: </text>
+		<text top="606" left="454" width="144" height="15" font="21">GPHY 7133 or permission.</text>
+		<text top="645" left="189" width="3" height="15" font="21"/>
+		<text top="670" left="189" width="3" height="15" font="21"/>
+		<text top="694" left="189" width="3" height="15" font="21"/>
+		<text top="718" left="189" width="3" height="15" font="21"/>
+		<text top="742" left="189" width="3" height="15" font="21"/>
