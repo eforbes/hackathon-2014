@@ -81,33 +81,6 @@
 <% include footer %>
 
     <script type="text/javascript">
-    $(function() {
-        var popover
-        $('.btn-default').popover({
-                        html: true,
-                        trigger: 'manual'
-                    }).click(function(e) {
-                        popover = $(this).popover('show');
-                    });
-        var removepopover = function(e) {
-            classList = e.target.className.split(/\s+/);
-            var j = false;
-            for (var i = 0; i < classList.length; i++) {
-               if (classList[i] === 'btn-default') {
-                 j = true;
-               }
-            }
-            if(!j){
-                if(popover){
-                    popover.popover('hide');
-                }
-            }
-        };
-        $('.gridster li').mousedown(removepopover);
-        $('body').mousedown(removepopover);
-    });
-    </script>
-    <script type="text/javascript">
         $(function() {
             var gridster = $(".gridster.classes > ul").gridster({
                 namespace: '.classes',
@@ -121,7 +94,7 @@
             console.log(<%-JSON.stringify(user.schedule)%>);
             <% for(var i=0; i < user.schedule.length; i++){ %>
             console.log('<%= user.schedule[i].number %>');
-            gridster.data('gridster').add_widget('<li name="<%=user.schedule[i].number%>"> <h1><%=user.schedule[i].number%></h1></li>', <%= user.schedule[i].size_x %>, <%= user.schedule[i].size_y %>, <%= user.schedule[i].col %>, <%= user.schedule[i].row %>);
+            gridster.data('gridster').add_widget('<li name="<%=user.schedule[i].number%>"> <h1><%=user.schedule[i].number%></h1><button type="button" class="btn btn-default" data-toggle="popover" title="Course info" data-container="body" data-content="The course is very good and stuff and I would recommend it to anyone that takes courses from a professor that is a professor and this is a long description">i</button> </li>', <%= user.schedule[i].size_x %>, <%= user.schedule[i].size_y %>, <%= user.schedule[i].col %>, <%= user.schedule[i].row %>);
                 <% } %>
         });
 
@@ -149,5 +122,32 @@
         });
     </script>
 
+    <script type="text/javascript">
+    $(function() {
+        var popover
+        $('.btn-default').popover({
+                        html: true,
+                        trigger: 'manual'
+                    }).click(function(e) {
+                        popover = $(this).popover('show');
+                    });
+        var removepopover = function(e) {
+            classList = e.target.className.split(/\s+/);
+            var j = false;
+            for (var i = 0; i < classList.length; i++) {
+               if (classList[i] === 'btn-default') {
+                 j = true;
+               }
+            }
+            if(!j){
+                if(popover){
+                    popover.popover('hide');
+                }
+            }
+        };
+        $('.gridster li').mousedown(removepopover);
+        $('body').mousedown(removepopover);
+    });
+    </script>
 </body>
 </html>
