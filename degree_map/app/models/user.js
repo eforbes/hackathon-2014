@@ -13,7 +13,13 @@ var userSchema = mongoose.Schema({
         token        : String,
         email        : String,
         name         : String
-    }
+    },
+    schedule: [[
+      {
+          course: String,
+          taken: Boolean
+      }
+    ]]
 
 });
 
