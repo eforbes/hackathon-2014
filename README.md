@@ -7,4 +7,4 @@ University of Tulsa ACM Hackathon
 * Evan Forbes
 * Michael Ripley
 * Will Smith
-* Not Dalbers
+* Blixa Morgan (TWD Mentor)
