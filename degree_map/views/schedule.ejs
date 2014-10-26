@@ -22,7 +22,7 @@
         <div class="gridster semesters">
             <ul>
                 <% for(var i=1; i <= 10; i++) {%>
-                <li class="semester" data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+                <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
                     <h1>Semseter <%=i%></h1>
                 </li>
                 <% } %>
@@ -88,7 +88,7 @@
                     widget_base_dimensions: [130, 50],
                     max_cols: 10,
                     min_cols: 8
-                }).data('semesters').disable();
+                }).data('gridster').disable();
             });
     </script>
     <script type="text/javascript">
