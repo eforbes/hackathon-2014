@@ -75,7 +75,13 @@ module.exports = function(app, passport) {
 
 
 	app.get('/setup', function(req, res){
-			res.render('setup.ejs', {user: req.user, reqCourses: ['test','test2']});
+
+			Degree.find({}, function(err, degrees){
+				var reqCourses = degrees[0].courseGroups[0].courses;
+				res.render('setup.ejs', {user: req.user, reqCourses: reqCourses});
+			});
+
+
 	});
 
 	app.post('/setup', function(req, res){
