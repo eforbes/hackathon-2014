@@ -89,3 +89,10 @@
     background-color: #81DAF5;
 }
 
+.form-control {
+    margin-left: 3px;
+    margin-right: 10px;
+    width: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+}
