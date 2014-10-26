@@ -1,0 +1,9 @@
+<!DOCTYPE courselist
+[
+<!ELEMENT departments (courselist,from,heading,body)>
+<!ELEMENT courselist (title,course)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT course (coursename,coursedescription)>
+<!ELEMENT coursename (#PCDATA)>
+<!ELEMENT coursedescription (#PCDATA)>
+]>
