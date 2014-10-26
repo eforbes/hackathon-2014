@@ -1,0 +1,5 @@
+/app/models/ - definitions for objects
+/app/models/user.js - definition of user object
+/app/routes.js - how data gets embedded into pages
+/app/views/ - html for pages
+/app/views/profile.ejs - page for a users profile
