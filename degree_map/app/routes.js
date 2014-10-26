@@ -122,7 +122,7 @@ module.exports = function(app, passport) {
 
 			var outCourses = [];
 			for(var i=0;i<courses.length;i++) {
-				outCourses.push({number:courses[i], col:(i%8)+1, row:(i/8)+1, size_x:1, size_y:1});//lol?
+				outCourses.push({number:courses[i], col:(i%8)+1, row:Math.floor((i/8))+1, size_x:1, size_y:1});//lol?
 			}
 
 			req.user.schedule = outCourses;
