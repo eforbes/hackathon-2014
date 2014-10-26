@@ -76,6 +76,15 @@ module.exports = function(app, passport) {
 		console.log('setup submit: '+JSON.stringify(req.body));
 			res.redirect('/schedule');
 	});
+
+	app.get('/admin', function(req, res){
+			res.render('admin.ejs', {user: req.user});
+	});
+
+	app.post('/admin', function(req, res){
+		console.log('admin submit: '+JSON.stringify(req.body));
+			res.redirect('/');
+	});
 };
 
 // route middleware to make sure a user is logged in

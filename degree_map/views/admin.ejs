@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+	<title>Degree Map | Admin</title>
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"> <!-- load bootstrap css -->
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"> <!-- load fontawesome -->
+	<style>
+		body 		{ padding-top:80px; }
+	</style>
+</head>
+<body>
+<% include header %>
+<div class="container">
+	<div class="col-sm-6 col-sm-offset-3">
+		<h1>Admin</h1>
+
+		<form action="/admin" method="post" role="form">
+			<div class="form-group">
+				<label>Degree data</label>
+				<textarea name="degree_data" rows="10" cols="50" placeholder="data data data" class="form-control"></textarea>
+			</div>
+			<div class="form-group">
+				<label>Course data</label>
+				<textarea name="course_data" rows="10" cols="50" placeholder="data data data" class="form-control"></textarea>
+			</div>
+			<button action="submit" class="btn btn-primary pull-right">Continue</button><div class="clearfix"></div>
+		</form>
+
+	</br>
+	</div>
+</div>
+<% include footer %>
+</body>
+</html>
