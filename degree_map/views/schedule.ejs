@@ -33,7 +33,10 @@
             $.ajax({
                 type: "POST",
                 url: "/schedule/save",
-                data: s
+                data: {courses:s},
+                success: function(data, status) {
+                  console.log("success?");
+                }
                 }).always(function () {
               btn.button('reset')
             });

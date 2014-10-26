@@ -53,7 +53,14 @@ module.exports = function(app, passport) {
     });
 
 		app.post('/schedule/save', function(req,res){
-			console.log("saving: "+req.body);
+			console.log("saving: "+JSON.stringify(req.body));
+
+			req.user.schedule = req.body.courses;
+			req.user.markModified('schedule');
+
+			req.user.save(function(err){
+				res.send(200);
+			});
 		});
 
 	// =====================================
@@ -115,7 +122,7 @@ module.exports = function(app, passport) {
 
 			var outCourses = [];
 			for(var i=0;i<courses.length;i++) {
-				outCourses.push({number:courses[i], column:i%8});//lol?
+				outCourses.push({number:courses[i], col:i%8});//lol?
 			}
 
 			req.user.schedule = outCourses;
