@@ -12,6 +12,11 @@
     margin-bottom: 0px;
     font-size: 30px;
 }
+
+.schedule-tools {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 /* Gridster styles */
 .schedulegrid {
     margin: 3em 0;
@@ -21,7 +26,7 @@
     width: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .schedulegrid :hover .gridster {
