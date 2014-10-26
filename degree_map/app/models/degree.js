@@ -5,7 +5,7 @@ var degreeSchema = mongoose.Schema({
 
     shortname: String,
     name: String,
-    courseGroups: [Schema.Types.Mixed]
+    courseGroups: [mongoose.Schema.Types.Mixed]
 
 });
 
