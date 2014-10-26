@@ -56,17 +56,35 @@ module.exports = function(app, passport) {
 
 						Course.find(function(err,allCourses){
 							var cleanCourses = [];
+							var toHighlight = {};
 							for(var i=0;i<allCourses.length;i++) {
 								cleanCourses.push(allCourses[i].number);
+								toHighlight[allCourses[i].number] = [];
+								if(allCourses[i].prereqs) {
+									//console.log('PREREQS: '+JSON.stringify(allCourses[i].prereqs));
+									for(var k =0;k<allCourses[i].prereqs.length;k++) {
+											//console.log('prereq: '+allCourses[i].prereqs[k]);
+											toHighlight[allCourses[i].number].push(allCourses[i].prereqs[k]);
+										}
+
+								}
+								if(allCourses[i].coreqs) {
+									for(var k =0;k<allCourses[i].coreqs.length;k++) {
+											toHighlight[allCourses[i].number].push(allCourses[i].coreqs[k]);
+										}
+									}
+								//if(allCourses[i].number=='CS 2003')
+									//console.log('h: '+JSON.stringify(toHighlight[allCourses[i].number]));
 							}
 							t['General elective'] = cleanCourses;
 
-							console.log('tagmap: '+JSON.stringify(t));
+							console.log('toHighlight: '+JSON.stringify(toHighlight));
 
 							res.render('schedule.ejs', {
 									user : req.user,
 									nav: 'Map',
-									tagMap: t
+									tagMap: t,
+									toHighlight: toHighlight
 							});
 						})
 				});
@@ -187,6 +205,9 @@ module.exports = function(app, passport) {
 				var courseObject = new Course();
 				courseObject.name = c.name;
 				courseObject.number = dept + ' '+c.number;
+
+				courseObject.prereqs = c.prereqs;
+				courseObject.coreqs = c.coreqs;
 
 				if(courseObject.number.length<=9) {
 					if(c.block>0) {
