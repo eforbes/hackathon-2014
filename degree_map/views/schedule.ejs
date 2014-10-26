@@ -7,30 +7,39 @@
     <link rel="stylesheet" type="text/css" href="public/stylesheets/jquery.gridster.css">
     <link rel="stylesheet" type="text/css" href="public/stylesheets/schedulestyle.css">
     <style>
-        body        { padding-top:80px; word-wrap:break-word; }
+        body        { padding-top:60px; word-wrap:break-word; }
     </style>
 </head>
 <body>
 <% include header %>
-<div class="container">
+<div class="container-fluid">
 
     <div class="page-header text-center">
         <h1>My Schedule</h1>
     </div>
 
     <section class="schedulegrid">
-        <div class="gridster">
+        <div class="gridster semesters">
             <ul>
-                <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+                <% for(var i=1; i <= 10; i++) {%>
+                <li class="semester" data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+                    <h1>Semseter <%=i%></h1>
+                </li>
+                <% } %>
+            </ul>
+        </div>
+        <div class="gridster classes">
+            <ul>
+                <li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
                     <h1>Linear Algebra</h1>
                     <p>MATH 4123</p>
                     <button id="test" type="button" class="btn btn-default" data-toggle="popover"
                         title="Course info" data-container="body"
                         data-content="The course is very good and stuff">i</button>
                 </li>
-                <li data-row="2" data-col="1" data-sizex="1" data-sizey="1"><h1>Goodbye</h1></li>
                 <li data-row="3" data-col="1" data-sizex="1" data-sizey="1"><h1>Goodbye</h1></li>
                 <li data-row="4" data-col="1" data-sizex="1" data-sizey="1"><h1>Goodbye</h1></li>
+                <li data-row="5" data-col="1" data-sizex="1" data-sizey="1"><h1>Goodbye</h1></li>
 
                 <li data-row="1" data-col="2" data-sizex="1" data-sizey="1"><h1>Hello</h1></li>
                 <li data-row="2" data-col="2" data-sizex="1" data-sizey="1"><h1>Hello</h1></li>
@@ -61,22 +70,33 @@
                 });
     </script>
     <script type="text/javascript">
-        var gridster;
-
         $(function() {
-                gridster = $(".gridster > ul").gridster({
-                    widget_margins: [10, 10],
-                    widget_base_dimensions: [200, 140],
-                    min_cols: 6
-                }).data('gridster');
+                $(".gridster.classes > ul").gridster({
+                    namespace: '.classes',
+                    widget_margins: [7, 7],
+                    widget_base_dimensions: [130, 100],
+                    max_cols: 10,
+                    min_cols: 8
+                });
+            });
+    </script>
+    <script type="text/javascript">
+        $(function() {
+                $(".gridster.semesters > ul").gridster({
+                    namespace: '.semesters',
+                    widget_margins: [7, 7],
+                    widget_base_dimensions: [130, 50],
+                    max_cols: 10,
+                    min_cols: 8
+                }).data('semesters').disable();
             });
     </script>
     <script type="text/javascript">
         $(document).ready(function(){
-            $(".gridster li").hover(function(){
-                $(".gridster li").css("box-shadow", "0 0 10px #fe2e2e");
+            $(".gridster.classes li").hover(function(){
+                $(".gridster.classes li").css("box-shadow", "0 0 10px #fe2e2e");
             },function(){
-                $(".gridster li").css("box-shadow", "0 0 0px #fe2e2e");
+                $(".gridster.classes li").css("box-shadow", "0 0 0px #fe2e2e");
             });
 
             $('#test').popover();

@@ -3,7 +3,7 @@ var bcrypt   = require('bcrypt-nodejs');
 
 // define the schema for our user model
 var userSchema = mongoose.Schema({
-
+    degree: mongoose.Schema.Types.ObjectId,
     local            : {
         email        : String,
         password     : String,
@@ -13,7 +13,8 @@ var userSchema = mongoose.Schema({
         token        : String,
         email        : String,
         name         : String
-    }
+    },
+    schedule: mongoose.Schema.Types.Mixed
 
 });
 
