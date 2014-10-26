@@ -33,12 +33,15 @@
             $.ajax({
                 type: "POST",
                 url: "/schedule/save",
-                data: {s}
+                data: {courses:s},
+                success: function(data, status) {
+                  console.log("success?");
+                }
                 }).always(function () {
               btn.button('reset')
             });
           });
-        </script> 
+        </script>
     </div>
     <section class="schedulegrid">
         <div class="gridster semesters">
@@ -62,7 +65,7 @@
                 <li data-row="3" data-col="1" data-sizex="1" data-sizey="1" name="ASDF">
                 <h1>Goodbye</h1>
                 <button type="button" class="btn btn-default" data-toggle="popover"
-                    title="Course info" data-container="body" 
+                    title="Course info" data-container="body"
                     data-content="The course is very good and stuff">i</button>
                 </li>
                 <% for(var i=1; i <= 5; i++) {%>
@@ -91,7 +94,7 @@
                if (classList[i] === 'btn-default') {
                  j = true;
                }
-            }            
+            }
             if(!j){
                 if(popover){
                     popover.popover('hide');
