@@ -113,10 +113,11 @@
     <script type="text/javascript">
         $(document).ready(function(){
             var toHighlight = <%- JSON.stringify(toHighlight) %>;
+            console.log(toHighlight);
             $(".gridster.classes li").hover(function(e){
                 for(var i=0; i < toHighlight[this.id.replace(/\s/g,'_')].length;i++){
                     console.log(toHighlight[this.id][i].replace(/\s/g,'_'));
-                    $("#"+toHighlight[this.id][i].replace(/\s/g,"_")).css("box-shadow", "0 0 10px #fe2e2e");
+                    $("#"+toHighlight[this.id][i].replace(/\s/g,"_")).css("box-shadow", "0 0 15px #fe2e2e");
                 }
             },function(){
                 $(".gridster.classes li").css("box-shadow", "0 0 0px #fe2e2e");
