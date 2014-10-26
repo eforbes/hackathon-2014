@@ -94,7 +94,7 @@
             console.log(<%-JSON.stringify(user.schedule)%>);
             <% for(var i=0; i < user.schedule.length; i++){ %>
             console.log('<%= user.schedule[i].number %>');
-            gridster.data('gridster').add_widget('<li id="<%=user.schedule[i].number%>" name="<%=user.schedule[i].number%>"> <h1><%=user.schedule[i].number%></h1><% if(tagMap[user.schedule[i].number]){ %><select class="form-control"><% for(var j=0; j< tagMap[user.schedule[i].number].length;j++){ %> <option><%=tagMap[user.schedule[i].number][j] %></option><% } %></select><% } %><button type="button" class="btn btn-default" data-toggle="popover" title="Course info" data-container="body" data-content="The course is very good and stuff and I would recommend it to anyone that takes courses from a professor that is a professor and this is a long description">i</button> </li>', <%= user.schedule[i].size_x %>, <%= user.schedule[i].size_y %>, <%= user.schedule[i].col %>, <%= user.schedule[i].row %>);
+            gridster.data('gridster').add_widget('<li id="<%=user.schedule[i].number.replace(/\s/g,"_")%>" name="<%=user.schedule[i].number%>"> <h1><%=user.schedule[i].number%></h1><% if(tagMap[user.schedule[i].number]){ %><select class="form-control"><% for(var j=0; j< tagMap[user.schedule[i].number].length;j++){ %> <option><%=tagMap[user.schedule[i].number][j] %></option><% } %></select><% } %><button type="button" class="btn btn-default" data-toggle="popover" title="Course info" data-container="body" data-content="The course is very good and stuff and I would recommend it to anyone that takes courses from a professor that is a professor and this is a long description">i</button> </li>', <%= user.schedule[i].size_x %>, <%= user.schedule[i].size_y %>, <%= user.schedule[i].col %>, <%= user.schedule[i].row %>);
                 <% } %>
         });
 
@@ -112,12 +112,14 @@
     </script>
     <script type="text/javascript">
         $(document).ready(function(){
+            var toHighlight = <%- JSON.stringify(toHighlight) %>;
             $(".gridster.classes li").hover(function(e){
-                for(var i=0; i < toHighlight[$(e).id].length;i++){
-                    $("#"+toHighlight[$(e).id][i]).css("box-shadow", "0 0 10px #fe2e2e");
+                for(var i=0; i < toHighlight[this.id.replace(/\s/g,'_')].length;i++){
+                    console.log(toHighlight[this.id][i].replace(/\s/g,'_'));
+                    $("#"+toHighlight[this.id][i].replace(/\s/g,"_")).css("box-shadow", "0 0 10px #fe2e2e");
                 }
             },function(){
-                $(".gridster.classes li").css("box-shadow", "0 0 0px #fe2e2e");
+                /*$(".gridster.classes li").css("box-shadow", "0 0 0px #fe2e2e");*/
             });
 
             $('#test').popover();
