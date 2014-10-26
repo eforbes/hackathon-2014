@@ -1,23 +1,27 @@
+.navbar {
+    margin-bottom: 0px;
+}
+
+.page-header {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.page-header h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 30px;
+}
 /* Gridster styles */
-ul, ol {
-    list-style: none;
-}
-
-.gridster h1 {
-    font-size: 26px;
-    text-align: center;
-}
-.gridster p {
-    font-size: 13px;
-    margin: 10px;
-    position: absolute;
-    bottom: 0px;
-}
-
 .schedulegrid {
     margin: 3em 0;
     padding: 7.5em 0 5.5em;
+    padding-top: 20px;
     background: #a9a9f5;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
 }
 
 .schedulegrid :hover .gridster {
@@ -25,9 +29,10 @@ ul, ol {
 }
 
 .gridster {
-    width: 940px;
+    width: auto;
     margin: 0 auto;
-
+    margin-left: 10px;
+    margin-right: 10px;
     opacity: .8;
 
     -webkit-transition: opacity .6s;
@@ -37,13 +42,38 @@ ul, ol {
     transition: opacity .6s;
 }
 
-.gridster li {
+.gridster ul, ol {
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 0;
+}
+
+.gridster.semsters li {
+    border-radius: 0px;
+    font-size: 20px;
+}
+
+.gridster.classes li {
     background: #FFF;
     cursor: pointer;
     -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.3);
     box-shadow: 0 0 5px rgba(0,0,0,0.3);
     border-radius: 10px;
 }
+
+.gridster h1 {
+    font-size: 16px;
+    text-align: center;
+}
+
+.gridster p {
+    font-size: 13px;
+    margin: 10px;
+    position: absolute;
+    bottom: 0px;
+}
+
 .gridster button {
     font-size: 10px;
     position: absolute;
@@ -52,4 +82,8 @@ ul, ol {
     padding: 5px;
     margin: 5px;
     background-color: #81DAF5;
+}
+
+.semster {
+    
 }
