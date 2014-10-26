@@ -34,10 +34,14 @@
                     <h1>Linear Algebra</h1>
                     <p>MATH 4123</p>
                     <button id="test" type="button" class="btn btn-default" data-toggle="popover"
-                        title="Course info" data-container="body"
+                        title="Course info" data-container="body" 
                         data-content="The course is very good and stuff">i</button>
                 </li>
-                <li data-row="3" data-col="1" data-sizex="1" data-sizey="1"><h1>Goodbye</h1></li>
+                <li data-row="3" data-col="1" data-sizex="1" data-sizey="1"><h1>Goodbye</h1>
+                <button id="test" type="button" class="btn btn-default" data-toggle="popover"
+                    title="Course info" data-container="body" 
+                    data-content="The course is very good and stuff">i</button>
+                </li>
                 <li data-row="4" data-col="1" data-sizex="1" data-sizey="1"><h1>Goodbye</h1></li>
                 <li data-row="5" data-col="1" data-sizex="1" data-sizey="1"><h1>Goodbye</h1></li>
 
@@ -57,17 +61,30 @@
     <script type="text/javascript" src="public/javascripts/jquery.gridster.js" charster="utf-8"></script>
     <script type="text/javascript" src="public/javascripts/bootstrap.min.js"></script>
     <script type="text/javascript">
-	$('.btn-default').popover({
-                    html: true,
-                    trigger: 'manual'
-                }).click(function(e) {
-                    $(this).popover('show');
-                    $('.popover-title').append('<button type="button" class="close">&times;</button>');
-                    $('.close').click(function(e){
-                        $('.btn-default').popover('hide');
+    $(function() {    
+        var popover 
+        $('.btn-default').popover({
+                        html: true,
+                        trigger: 'manual'
+                    }).click(function(e) {
+                        popover = $(this).popover('show');
                     });
-                    e.preventDefault();
-                });
+        var removepopover = function(e) {
+            classList = e.target.className.split(/\s+/);
+            var j = false;
+            for (var i = 0; i < classList.length; i++) {
+               if (classList[i] === 'btn-default') {
+                 j = true;
+               }
+            }            
+            if(!j){
+                popover.popover('hide');
+            }
+            console.log(e.target);
+        };
+        $('.gridster li').mousedown(removepopover);
+        $('body').mousedown(removepopover);
+    });
     </script>
     <script type="text/javascript">
         $(function() {
