@@ -59,18 +59,18 @@ module.exports = function(app, passport) {
 							var toHighlight = {};
 							for(var i=0;i<allCourses.length;i++) {
 								cleanCourses.push(allCourses[i].number);
-								toHighlight[allCourses[i].number] = [];
+								toHighlight[allCourses[i].number.split(' ').join('_')] = [];
 								if(allCourses[i].prereqs) {
 									//console.log('PREREQS: '+JSON.stringify(allCourses[i].prereqs));
 									for(var k =0;k<allCourses[i].prereqs.length;k++) {
 											//console.log('prereq: '+allCourses[i].prereqs[k]);
-											toHighlight[allCourses[i].number].push(allCourses[i].prereqs[k]);
+											toHighlight[allCourses[i].number.split(' ').join('_')].push(allCourses[i].prereqs[k]);
 										}
 
 								}
 								if(allCourses[i].coreqs) {
 									for(var k =0;k<allCourses[i].coreqs.length;k++) {
-											toHighlight[allCourses[i].number].push(allCourses[i].coreqs[k]);
+											toHighlight[allCourses[i].number.split(' ').join('_')].push(allCourses[i].coreqs[k]);
 										}
 									}
 								//if(allCourses[i].number=='CS 2003')
