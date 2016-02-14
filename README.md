@@ -25,4 +25,4 @@ Choose your major and select the courses you've already taken. All required clas
 Drag and drop courses to rearrange your schedule. Select from the available elective courses in the dropdowns.
 
 ![](http://imgur.com/b1xkdEG.png)
-Hover over courses to recursively highlight prequisites.
+Hover over courses to recursively highlight prerequisites.
